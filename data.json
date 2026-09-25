@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-09-25T11:47:06+00:00",
+ "generated_at": "2026-09-25T23:20:31+00:00",
  "region": "Northern Michigan + Upper Peninsula",
  "source_note": "Michigan county tax-foreclosure auctions via tax-sale.info (Title Check, LLC). For research only \u2014 always verify with the county treasurer before bidding.",
  "stats": {
-  "available": 113,
-  "counties_with_inventory": 25,
+  "available": 91,
+  "counties_with_inventory": 19,
   "sold_tracked": 500
  },
  "counties": [
@@ -12,31 +12,24 @@
   "Alpena",
   "Antrim",
   "Cheboygan",
-  "Chippewa",
-  "Crawford",
   "Delta",
   "Dickinson",
   "Iosco",
   "Iron",
-  "Kalkaska",
   "Lake",
-  "Leelanau",
   "Manistee",
   "Marquette",
   "Mason",
   "Menominee",
-  "Ogemaw",
   "Ontonagon",
   "Osceola",
   "Oscoda",
   "Otsego",
   "Roscommon",
-  "Schoolcraft",
-  "Wexford"
+  "Schoolcraft"
  ],
  "categories": [
   "Acreage",
-  "Commercial Building",
   "Homes/Cottages",
   "Vacant Lot"
  ],
@@ -87,7 +80,7 @@
    "auction_name": "Minimum Bid Re-Offer Auction",
    "auction_date": "2026-09-25",
    "n": 22,
-   "avail": 22
+   "avail": 0
   },
   {
    "auction_name": "No Reserve Auction",
@@ -2115,7 +2108,9 @@
    "map_url": "https://www.google.com/maps/search/?api=1&query=46.2384005479,-85.9277433319",
    "sold_price": null,
    "status": "available"
-  },
+  }
+ ],
+ "recently_sold": [
   {
    "county": "Cheboygan",
    "lot": "1703",
@@ -2135,8 +2130,8 @@
    "detail_url": "https://www.tax-sale.info/lot/show/id/163352",
    "photo_url": "https://taxsaleimg.com/2026/16/054-N33-004-005-00/Thumbs/IMG_20260501_123557018_HDR.jpg",
    "map_url": "https://www.google.com/maps/search/?api=1&query=45.6422898829,-84.4820300443",
-   "sold_price": null,
-   "status": "available"
+   "sold_price": 70250.0,
+   "status": "sold"
   },
   {
    "county": "Chippewa",
@@ -2157,8 +2152,8 @@
    "detail_url": "https://www.tax-sale.info/lot/show/id/162969",
    "photo_url": "https://taxsaleimg.com/2026/17/051-138-005-00/Thumbs/IMG_0482.JPG",
    "map_url": "https://www.google.com/maps/search/?api=1&query=46.4867048589,-84.3931920155",
-   "sold_price": null,
-   "status": "available"
+   "sold_price": 7900.0,
+   "status": "sold"
   },
   {
    "county": "Crawford",
@@ -2179,30 +2174,8 @@
    "detail_url": "https://www.tax-sale.info/lot/show/id/162973",
    "photo_url": "https://taxsaleimg.com/2026/20/064-280-000-003-00/Thumbs/P1011062.JPG",
    "map_url": "https://www.google.com/maps/search/?api=1&query=44.5167948418,-84.569925352",
-   "sold_price": null,
-   "status": "available"
-  },
-  {
-   "county": "Iosco",
-   "lot": "3116",
-   "title": "Mobile Home On Iroquois St, Oscoda ...",
-   "category": "Homes/Cottages",
-   "address": "6481 IROQUOIS ST  OSCODA",
-   "local_unit": "OSCODA TOWNSHIP",
-   "min_bid": 1830.17,
-   "current_taxes": 344.16,
-   "sev": 6900.0,
-   "acres": 0.2,
-   "comment": "~66 ft frontage on Iroquois (to E), ~132 ft deep. ~0.20 acres. Featuring an ugly 70's mobile home. Yard is fenced in chain link, and generally flat and grassy. Some minor sheds in the rear. Some poured areas in the yard, likely for another mobile home or tow behind trailer. Some disturbed soil near the mobile home may indicate some septic issues. Well pit is full of trash. Interior of the mobile home reflects the exterior. On the plus side, it's fairly empty. Floors look like they have lots of pet urine stains. Some spots on the floor feel ready to poke through. Some rot inside near where the ",
-   "auction": "Minimum Bid Re-Offer Auction",
-   "auction_date": "2026-09-25",
-   "catalog": "Iosco Re-Offer",
-   "is_dnr": false,
-   "detail_url": "https://www.tax-sale.info/lot/show/id/162978",
-   "photo_url": "https://taxsaleimg.com/2026/35/064-J50-000-062-00/Thumbs/P1033907.JPG",
-   "map_url": "https://www.google.com/maps/search/?api=1&query=44.4671767006,-83.331664524",
-   "sold_price": null,
-   "status": "available"
+   "sold_price": 8600.0,
+   "status": "sold"
   },
   {
    "county": "Iosco",
@@ -2223,8 +2196,30 @@
    "detail_url": "https://www.tax-sale.info/lot/show/id/162977",
    "photo_url": "https://taxsaleimg.com/2026/35/021-A30-000-108-00/Thumbs/P1033780.JPG",
    "map_url": "https://www.google.com/maps/search/?api=1&query=44.3411593858,-83.3438874045",
-   "sold_price": null,
-   "status": "available"
+   "sold_price": 13250.0,
+   "status": "sold"
+  },
+  {
+   "county": "Iosco",
+   "lot": "3116",
+   "title": "Mobile Home On Iroquois St, Oscoda ...",
+   "category": "Homes/Cottages",
+   "address": "6481 IROQUOIS ST  OSCODA",
+   "local_unit": "OSCODA TOWNSHIP",
+   "min_bid": 1830.17,
+   "current_taxes": 344.16,
+   "sev": 6900.0,
+   "acres": 0.2,
+   "comment": "~66 ft frontage on Iroquois (to E), ~132 ft deep. ~0.20 acres. Featuring an ugly 70's mobile home. Yard is fenced in chain link, and generally flat and grassy. Some minor sheds in the rear. Some poured areas in the yard, likely for another mobile home or tow behind trailer. Some disturbed soil near the mobile home may indicate some septic issues. Well pit is full of trash. Interior of the mobile home reflects the exterior. On the plus side, it's fairly empty. Floors look like they have lots of pet urine stains. Some spots on the floor feel ready to poke through. Some rot inside near where the ",
+   "auction": "Minimum Bid Re-Offer Auction",
+   "auction_date": "2026-09-25",
+   "catalog": "Iosco Re-Offer",
+   "is_dnr": false,
+   "detail_url": "https://www.tax-sale.info/lot/show/id/162978",
+   "photo_url": "https://taxsaleimg.com/2026/35/064-J50-000-062-00/Thumbs/P1033907.JPG",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=44.4671767006,-83.331664524",
+   "sold_price": 6100.0,
+   "status": "sold"
   },
   {
    "county": "Iron",
@@ -2245,8 +2240,8 @@
    "detail_url": "https://www.tax-sale.info/lot/show/id/162970",
    "photo_url": "https://taxsaleimg.com/2026/36/003-505-002-00/Thumbs/IMG_1757.JPG",
    "map_url": "https://www.google.com/maps/search/?api=1&query=46.2321863505,-88.443548372",
-   "sold_price": null,
-   "status": "available"
+   "sold_price": 8289.3,
+   "status": "sold"
   },
   {
    "county": "Iron",
@@ -2267,8 +2262,8 @@
    "detail_url": "https://www.tax-sale.info/lot/show/id/162971",
    "photo_url": "https://taxsaleimg.com/2026/36/004-021-011-00/Thumbs/IMG_1510.JPG",
    "map_url": "https://www.google.com/maps/search/?api=1&query=46.1102355432,-88.6869923611",
-   "sold_price": null,
-   "status": "available"
+   "sold_price": 42250.0,
+   "status": "sold"
   },
   {
    "county": "Kalkaska",
@@ -2289,8 +2284,8 @@
    "detail_url": "https://www.tax-sale.info/lot/show/id/162974",
    "photo_url": "https://taxsaleimg.com/2026/40/041-160-038-02/Thumbs/P1011198.JPG",
    "map_url": "https://www.google.com/maps/search/?api=1&query=44.7364769631,-85.171289302",
-   "sold_price": null,
-   "status": "available"
+   "sold_price": 343250.0,
+   "status": "sold"
   },
   {
    "county": "Lake",
@@ -2311,8 +2306,8 @@
    "detail_url": "https://www.tax-sale.info/lot/show/id/163181",
    "photo_url": "https://taxsaleimg.com/2026/43/10-600-044-00/Thumbs/a__10-600-044-00.png",
    "map_url": "https://www.google.com/maps/search/?api=1&query=43.9021850207,-85.7474329238",
-   "sold_price": null,
-   "status": "available"
+   "sold_price": 1300.0,
+   "status": "sold"
   },
   {
    "county": "Lake",
@@ -2333,8 +2328,8 @@
    "detail_url": "https://www.tax-sale.info/lot/show/id/163182",
    "photo_url": "https://taxsaleimg.com/2026/43/11-322-001-00/Thumbs/P1044391.JPG",
    "map_url": "https://www.google.com/maps/search/?api=1&query=43.9072056682,-85.8393599611",
-   "sold_price": null,
-   "status": "available"
+   "sold_price": 17250.0,
+   "status": "sold"
   },
   {
    "county": "Lake",
@@ -2355,8 +2350,8 @@
    "detail_url": "https://www.tax-sale.info/lot/show/id/163183",
    "photo_url": "https://taxsaleimg.com/2026/43/43-111-005-00/Thumbs/P1044492.JPG",
    "map_url": "https://www.google.com/maps/search/?api=1&query=44.0377704696,-85.6840608877",
-   "sold_price": null,
-   "status": "available"
+   "sold_price": 18250.0,
+   "status": "sold"
   },
   {
    "county": "Leelanau",
@@ -2377,8 +2372,8 @@
    "detail_url": "https://www.tax-sale.info/lot/show/id/163117",
    "photo_url": "https://taxsaleimg.com/2026/45/004-005-004-00/Thumbs/IMG_2293.JPG",
    "map_url": "https://www.google.com/maps/search/?api=1&query=44.855664087,-85.6589465369",
-   "sold_price": null,
-   "status": "available"
+   "sold_price": 26250.0,
+   "status": "sold"
   },
   {
    "county": "Manistee",
@@ -2399,8 +2394,8 @@
    "detail_url": "https://www.tax-sale.info/lot/show/id/163118",
    "photo_url": "https://taxsaleimg.com/2026/51/37-200-081-00/Thumbs/IMG_2980.JPG",
    "map_url": "https://www.google.com/maps/search/?api=1&query=44.2464458803,-86.2935924835",
-   "sold_price": null,
-   "status": "available"
+   "sold_price": 65250.0,
+   "status": "sold"
   },
   {
    "county": "Manistee",
@@ -2421,30 +2416,8 @@
    "detail_url": "https://www.tax-sale.info/lot/show/id/163119",
    "photo_url": "https://taxsaleimg.com/2026/51/38-541-703-39/Thumbs/IMG_2884.JPG",
    "map_url": "https://www.google.com/maps/search/?api=1&query=44.3677909231,-86.0128392146",
-   "sold_price": null,
-   "status": "available"
-  },
-  {
-   "county": "Mason",
-   "lot": "4618",
-   "title": "Bundle: The Foster Street School - ...",
-   "category": "Commercial Building",
-   "address": "504 E FOSTER ST  LUDINGTON",
-   "local_unit": "CITY OF LUDINGTON",
-   "min_bid": null,
-   "current_taxes": null,
-   "sev": 84800.0,
-   "acres": null,
-   "comment": "",
-   "auction": "Minimum Bid Re-Offer Auction",
-   "auction_date": "2026-09-25",
-   "catalog": "Mason Re-Offer",
-   "is_dnr": false,
-   "detail_url": "https://www.tax-sale.info/lot/show/id/162825",
-   "photo_url": "https://taxsaleimg.com/2026/53/051-311-001-00/Thumbs/IMG_2647.JPG",
-   "map_url": "https://www.google.com/maps/search/?api=1&query=43.952231408,-86.4414478285",
-   "sold_price": null,
-   "status": "available"
+   "sold_price": 7600.0,
+   "status": "sold"
   },
   {
    "county": "Mason",
@@ -2465,8 +2438,30 @@
    "detail_url": "https://www.tax-sale.info/lot/show/id/163120",
    "photo_url": "https://taxsaleimg.com/2026/53/005-003-006-10/Thumbs/IMG_2527.JPG",
    "map_url": "https://www.google.com/maps/search/?api=1&query=44.1517627616,-86.2111844265",
-   "sold_price": null,
-   "status": "available"
+   "sold_price": 47250.0,
+   "status": "sold"
+  },
+  {
+   "county": "Mason",
+   "lot": "4618",
+   "title": "Bundle: The Foster Street School - ...",
+   "category": "Commercial Building",
+   "address": "504 E FOSTER ST  LUDINGTON",
+   "local_unit": "CITY OF LUDINGTON",
+   "min_bid": null,
+   "current_taxes": null,
+   "sev": 84800.0,
+   "acres": null,
+   "comment": "",
+   "auction": "Minimum Bid Re-Offer Auction",
+   "auction_date": "2026-09-25",
+   "catalog": "Mason Re-Offer",
+   "is_dnr": false,
+   "detail_url": "https://www.tax-sale.info/lot/show/id/162825",
+   "photo_url": "https://taxsaleimg.com/2026/53/051-311-001-00/Thumbs/IMG_2647.JPG",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=43.952231408,-86.4414478285",
+   "sold_price": 145750.0,
+   "status": "sold"
   },
   {
    "county": "Menominee",
@@ -2487,8 +2482,8 @@
    "detail_url": "https://www.tax-sale.info/lot/show/id/162972",
    "photo_url": "https://taxsaleimg.com/2026/55/052-050-107-00/Thumbs/IMG_1981.JPG",
    "map_url": "https://www.google.com/maps/search/?api=1&query=45.4137108995,-87.61354358",
-   "sold_price": null,
-   "status": "available"
+   "sold_price": 7200.0,
+   "status": "sold"
   },
   {
    "county": "Ogemaw",
@@ -2509,30 +2504,8 @@
    "detail_url": "https://www.tax-sale.info/lot/show/id/163106",
    "photo_url": "https://taxsaleimg.com/2026/65/010-320-117-00/Thumbs/P1012005.JPG",
    "map_url": "https://www.google.com/maps/search/?api=1&query=44.2158104982,-84.0332619484",
-   "sold_price": null,
-   "status": "available"
-  },
-  {
-   "county": "Roscommon",
-   "lot": "7331",
-   "title": "Mobile Home On ~0.22 Acres; Brecken...",
-   "category": "Homes/Cottages",
-   "address": "301 BRECKENRIDGE, HOUGHTON LAKE",
-   "local_unit": "MARKEY TOWNSHIP",
-   "min_bid": 4126.3,
-   "current_taxes": 391.84,
-   "sev": 22900.0,
-   "acres": 0.22,
-   "comment": "This parcel should be considered OCCUPIED. Please respect their privacy. East bay Houghton Lake area, north side. ~150 ft frontage on Prospect Dr to the south, ~99 ft on Breckenridge to the E. Pie shaped lot. Generally flat and clear land, with some mature trees giving shade. Structures are an enclosed mobile home and detached garage. Mobile home looks to be a '70s model. It's difficult to ascertain the condition given all of the contents, but the overall impression is poor. Much of the flooring is down to the subfloor. Lots of personal property on the grounds and within the structure. It is o",
-   "auction": "Minimum Bid Re-Offer Auction",
-   "auction_date": "2026-09-25",
-   "catalog": "Roscommon Re-Offer",
-   "is_dnr": false,
-   "detail_url": "https://www.tax-sale.info/lot/show/id/162976",
-   "photo_url": "https://taxsaleimg.com/2026/72/008-882-060-0000/Thumbs/P1011632.JPG",
-   "map_url": null,
-   "sold_price": null,
-   "status": "available"
+   "sold_price": 21250.0,
+   "status": "sold"
   },
   {
    "county": "Roscommon",
@@ -2553,8 +2526,30 @@
    "detail_url": "https://www.tax-sale.info/lot/show/id/162975",
    "photo_url": "https://taxsaleimg.com/2026/72/011-406-003-0000/Thumbs/P1011404.JPG",
    "map_url": "https://www.google.com/maps/search/?api=1&query=44.3273048685,-84.7719746907",
-   "sold_price": null,
-   "status": "available"
+   "sold_price": 47750.0,
+   "status": "sold"
+  },
+  {
+   "county": "Roscommon",
+   "lot": "7331",
+   "title": "Mobile Home On ~0.22 Acres; Brecken...",
+   "category": "Homes/Cottages",
+   "address": "301 BRECKENRIDGE, HOUGHTON LAKE",
+   "local_unit": "MARKEY TOWNSHIP",
+   "min_bid": 4126.3,
+   "current_taxes": 391.84,
+   "sev": 22900.0,
+   "acres": 0.22,
+   "comment": "This parcel should be considered OCCUPIED. Please respect their privacy. East bay Houghton Lake area, north side. ~150 ft frontage on Prospect Dr to the south, ~99 ft on Breckenridge to the E. Pie shaped lot. Generally flat and clear land, with some mature trees giving shade. Structures are an enclosed mobile home and detached garage. Mobile home looks to be a '70s model. It's difficult to ascertain the condition given all of the contents, but the overall impression is poor. Much of the flooring is down to the subfloor. Lots of personal property on the grounds and within the structure. It is o",
+   "auction": "Minimum Bid Re-Offer Auction",
+   "auction_date": "2026-09-25",
+   "catalog": "Roscommon Re-Offer",
+   "is_dnr": false,
+   "detail_url": "https://www.tax-sale.info/lot/show/id/162976",
+   "photo_url": "https://taxsaleimg.com/2026/72/008-882-060-0000/Thumbs/P1011632.JPG",
+   "map_url": null,
+   "sold_price": 21250.0,
+   "status": "sold"
   },
   {
    "county": "Wexford",
@@ -2575,8 +2570,8 @@
    "detail_url": "https://www.tax-sale.info/lot/show/id/163121",
    "photo_url": "https://taxsaleimg.com/2026/83/10-091-00-019-00/Thumbs/IMG_8823.jpeg",
    "map_url": "https://www.google.com/maps/search/?api=1&query=44.260415,-85.397403",
-   "sold_price": null,
-   "status": "available"
+   "sold_price": 3600.0,
+   "status": "sold"
   },
   {
    "county": "Wexford",
@@ -2597,11 +2592,9 @@
    "detail_url": "https://www.tax-sale.info/lot/show/id/163122",
    "photo_url": "https://taxsaleimg.com/2026/83/MN-M-DV-032/Thumbs/IMG_2855.JPG",
    "map_url": "https://www.google.com/maps/search/?api=1&query=44.412404,-85.396903",
-   "sold_price": null,
-   "status": "available"
-  }
- ],
- "recently_sold": [
+   "sold_price": 40250.0,
+   "status": "sold"
+  },
   {
    "county": "Benzie",
    "lot": "1001",
@@ -8717,490 +8710,6 @@
    "map_url": "https://www.google.com/maps/search/?api=1&query=44.945946,-84.906699",
    "sold_price": 900.0,
    "status": "sold"
-  },
-  {
-   "county": "Antrim",
-   "lot": "528",
-   "title": "Solid 3 Bedroom Home With 2 Garages...",
-   "category": "Homes/Cottages",
-   "address": "401 E DIVISION  MANCELONA",
-   "local_unit": "VILLAGE OF MANCELONA",
-   "min_bid": 5570.91,
-   "current_taxes": 1200.25,
-   "sev": 58400.0,
-   "acres": 0.21,
-   "comment": "This is a cute, small and basic 3 bedroom home on an approximately ~0.21 Acre (about 75 ft wide * 120 ft deep) level, grassy. corner lot on the NE side of Mancelona. It has an attached one-car garage plus a detached one-car garage and a shed to boot! There is a decent amount of personal items in all the structures, most of it junk. Overall, this home looks to be pretty well maintained and recently vacated. With some paint, carpet, and elbow grease you could move right in. All kitchen appliances are intact, sans the range/oven. Extra features are a newer air conditioner, a 90+ furnace, and a ga",
-   "auction": "Antrim, Charlevoix, Emmet",
-   "auction_date": "2026-08-20",
-   "catalog": "Antrim",
-   "is_dnr": false,
-   "detail_url": "https://www.tax-sale.info/lot/show/id/159857",
-   "photo_url": "https://taxsaleimg.com/2026/5/05-45-200-020-00/Thumbs/IMG_20260509_160946930_HDR.jpg",
-   "map_url": "https://www.google.com/maps/search/?api=1&query=44.905892,-85.052982",
-   "sold_price": 121250.0,
-   "status": "sold"
-  },
-  {
-   "county": "Antrim",
-   "lot": "529",
-   "title": "Nice Wooded Vacant ~0.35 Acre Lot I...",
-   "category": "Vacant Lot",
-   "address": "",
-   "local_unit": "VILLAGE OF MANCELONA",
-   "min_bid": 844.21,
-   "current_taxes": 47.07,
-   "sev": 1000.0,
-   "acres": 0.35,
-   "comment": "Vacant, approximately 0.35 Acre wooded lot on a quiet street on the NW side of Mancelona. Approximately 120 ft frontage on the east side of Hillview St. and 130 ft deep. Interested bidders should contact the local government and/or association regarding possible development or use restrictions like minimum sq footage requirement, utilities, etc.",
-   "auction": "Antrim, Charlevoix, Emmet",
-   "auction_date": "2026-08-20",
-   "catalog": "Antrim",
-   "is_dnr": false,
-   "detail_url": "https://www.tax-sale.info/lot/show/id/159858",
-   "photo_url": "https://taxsaleimg.com/2026/5/05-45-235-016-00/Thumbs/IMG_20260509_153117765_HDR.jpg",
-   "map_url": "https://www.google.com/maps/search/?api=1&query=44.909059,-85.06851",
-   "sold_price": 6800.0,
-   "status": "sold"
-  },
-  {
-   "county": "Charlevoix",
-   "lot": "1600",
-   "title": "Moist Wooded Flat ~0.60 Acre Parcel...",
-   "category": "Vacant Lot",
-   "address": "US 31 N  CHARLEVOIX",
-   "local_unit": "HAYES TOWNSHIP",
-   "min_bid": 801.21,
-   "current_taxes": 33.59,
-   "sev": 1000.0,
-   "acres": 0.6,
-   "comment": "One can almost see the sandy beach from here! This wooded lot would be a great parcel, if it's not too wet. Generally this is not a wet area, but this one is on the hillside side of the road. If the drains crossing the highway are capable then wetness shouldn't be an issue. Also the neighbor's house is very close to the lot line. Do your research on this one. Interested bidders should contact the local government and/or association regarding possible development considerations or use restrictions like minimum sq footage requirement, suitability for septic systems and wells, utilities, etc.",
-   "auction": "Antrim, Charlevoix, Emmet",
-   "auction_date": "2026-08-20",
-   "catalog": "Charlevoix",
-   "is_dnr": false,
-   "detail_url": "https://www.tax-sale.info/lot/show/id/160179",
-   "photo_url": "https://taxsaleimg.com/2026/15/007-450-003-00/Thumbs/IMG_20260619_092148180_HDR.jpg",
-   "map_url": "https://www.google.com/maps/search/?api=1&query=45.3674722342,-85.1492942734",
-   "sold_price": 15750.0,
-   "status": "sold"
-  },
-  {
-   "county": "Charlevoix",
-   "lot": "1603",
-   "title": "~40 Acre Parcel On Beaver Island W/...",
-   "category": "Acreage",
-   "address": "MRS REDDING'S TRL  BEAVER ISLAND",
-   "local_unit": "PEAINE TOWNSHIP",
-   "min_bid": 3396.93,
-   "current_taxes": 176.33,
-   "sev": 29600.0,
-   "acres": 40.0,
-   "comment": "This property is surrounded by private owners, and has no known legal access. We were unable to visit the property in person, so all information is to the best of our knowledge and should be thoroughly researched. This property would be a great expansion to one of the adjoining property owners. Interested bidders should contact the local branch of government regarding possible development and or other use restrictions. E.g. Minimum Sq. footage requirement, utilities, etc.",
-   "auction": "Antrim, Charlevoix, Emmet",
-   "auction_date": "2026-08-20",
-   "catalog": "Charlevoix",
-   "is_dnr": false,
-   "detail_url": "https://www.tax-sale.info/lot/show/id/160182",
-   "photo_url": "https://taxsaleimg.com/2026/15/012-118-010-00/Thumbs/a__012-118-010-00.png",
-   "map_url": "https://www.google.com/maps/search/?api=1&query=45.6761116933,-85.5862748097",
-   "sold_price": 18250.0,
-   "status": "sold"
-  },
-  {
-   "county": "Charlevoix",
-   "lot": "1604",
-   "title": "~2.38 Acre Parcel On Eastside Dr, B...",
-   "category": "Vacant Lot",
-   "address": "EAST SIDE DR  BEAVER ISLAND",
-   "local_unit": "PEAINE TOWNSHIP",
-   "min_bid": 1471.94,
-   "current_taxes": 60.22,
-   "sev": 5600.0,
-   "acres": 2.38,
-   "comment": "This property measures ~2.38 acres, with frontage on Eastside Dr. We were unable to conduct a follow-up visit prior to Auction, so all information is to the best of our knowledge. Plat map is located in the pictures for reference. This property is not too far from the Lake with public access close at Bill Wagner Public Beach! Interested bidders should contact the local branch of government regarding possible development and or other use restrictions. E.g. Minimum Sq. footage requirement, utilities, etc.",
-   "auction": "Antrim, Charlevoix, Emmet",
-   "auction_date": "2026-08-20",
-   "catalog": "Charlevoix",
-   "is_dnr": false,
-   "detail_url": "https://www.tax-sale.info/lot/show/id/160183",
-   "photo_url": "https://taxsaleimg.com/2026/15/012-476-059-00/Thumbs/1604 PA.jpg",
-   "map_url": "https://www.google.com/maps/search/?api=1&query=45.660199,-85.500998",
-   "sold_price": 17750.0,
-   "status": "sold"
-  },
-  {
-   "county": "Charlevoix",
-   "lot": "1605",
-   "title": "~0.64 Acre Parcel On Eastside Dr, B...",
-   "category": "Vacant Lot",
-   "address": "EAST SIDE DR  BEAVER ISLAND",
-   "local_unit": "PEAINE TOWNSHIP",
-   "min_bid": 951.89,
-   "current_taxes": 24.56,
-   "sev": 3700.0,
-   "acres": 0.64,
-   "comment": "This property is a vacant parcel measuring ~0.64 acres. We were unable to conduct a follow up visit prior to auction, so all information is the the best of our knowledge and should be thoroughly researched. Plat Map is present in the photos for reference. Located not too far from the lake. Interested bidders should contact the local branch of government regarding possible development and or other use restrictions. E.g. Minimum Sq. footage requirement, utilities, etc.",
-   "auction": "Antrim, Charlevoix, Emmet",
-   "auction_date": "2026-08-20",
-   "catalog": "Charlevoix",
-   "is_dnr": false,
-   "detail_url": "https://www.tax-sale.info/lot/show/id/160184",
-   "photo_url": "https://taxsaleimg.com/2026/15/012-650-009-00/Thumbs/1605 PA.jpg",
-   "map_url": "https://www.google.com/maps/search/?api=1&query=45.7093904377,-85.5016501261",
-   "sold_price": 9500.0,
-   "status": "sold"
-  },
-  {
-   "county": "Charlevoix",
-   "lot": "1606",
-   "title": "~0.68 Acre Vacant Parcel In Leonard...",
-   "category": "Vacant Lot",
-   "address": "LEONARD LN  BEAVER ISLAND",
-   "local_unit": "ST. JAMES TOWNSHIP",
-   "min_bid": 918.27,
-   "current_taxes": 18.99,
-   "sev": 2300.0,
-   "acres": 0.68,
-   "comment": "This property is a vacant parcel measuring ~0.68 acres. We were unable to conduct a follow up visit prior to auction, so all information is the the best of our knowledge and should be thoroughly researched. Plat map in the photos for reference.  Located not too far from the lake. Interested bidders should contact the local branch of government regarding possible development and or other use restrictions. E.g. Minimum Sq. footage requirement, utilities, etc.",
-   "auction": "Antrim, Charlevoix, Emmet",
-   "auction_date": "2026-08-20",
-   "catalog": "Charlevoix",
-   "is_dnr": false,
-   "detail_url": "https://www.tax-sale.info/lot/show/id/160185",
-   "photo_url": "https://taxsaleimg.com/2026/15/013-550-039-00/Thumbs/a__013-550-039-00.png",
-   "map_url": "https://www.google.com/maps/search/?api=1&query=45.7490116544,-85.5449974929",
-   "sold_price": 14750.0,
-   "status": "sold"
-  },
-  {
-   "county": "Charlevoix",
-   "lot": "1607",
-   "title": "Roof-Over Mobile With Rough Garage ...",
-   "category": "Acreage",
-   "address": "9455 ROGERS RD  EAST JORDAN",
-   "local_unit": "SOUTH ARM TOWNSHIP",
-   "min_bid": 5382.59,
-   "current_taxes": 657.38,
-   "sev": 42900.0,
-   "acres": 10.0,
-   "comment": "This approximately 333' (road front) x 1311' (deep) 10 acre property is OCCUPIED, so we weren\u2019t able to get very close, but the older mobile home appears to be in fair condition. The shed/garage appears a bit ramshackle, but the property overall looks relatively clean. Assume there is a septic and well, condition unknown. Do your research! This is an attractive property in the country, yet close to town on a paved road and in an area of nicer homes. Topo maps show the front 2/3 wooded, with the rear part field/grassy. Gently rolling and no wetlands indicated. This would make a great homesite.",
-   "auction": "Antrim, Charlevoix, Emmet",
-   "auction_date": "2026-08-20",
-   "catalog": "Charlevoix",
-   "is_dnr": false,
-   "detail_url": "https://www.tax-sale.info/lot/show/id/160186",
-   "photo_url": "https://taxsaleimg.com/2026/15/014-028-022-10/Thumbs/IMG_20260624_145243680.jpg",
-   "map_url": "https://www.google.com/maps/search/?api=1&query=45.1342623946,-85.1693698441",
-   "sold_price": 75250.0,
-   "status": "sold"
-  },
-  {
-   "county": "Charlevoix",
-   "lot": "1608",
-   "title": "Double-Wide Roof-Over And Small Pol...",
-   "category": "Acreage",
-   "address": "5508 BELLAIRE RD  EAST JORDAN",
-   "local_unit": "SOUTH ARM TOWNSHIP",
-   "min_bid": 1857.11,
-   "current_taxes": 209.58,
-   "sev": 27900.0,
-   "acres": 2.0,
-   "comment": "Got junk? If not, buy this place and you'll have plenty of it! This property, on a gravel road a few miles South of East Jordan, is littered with junk and garbage of all imaginable kinds. The mobile reeks of pet urine and the roof/floor is showing signs of water damage. A couple steps in and it's apparent that the structure is not safe for entry. The pole barn may be redeemable, however it's open to the elements and filled with junk. Bring a couple dumpsters with you if you're game to take this one on, you'll need them. Also there are several vehicles, trailers, and lawn care equipment scatter",
-   "auction": "Antrim, Charlevoix, Emmet",
-   "auction_date": "2026-08-20",
-   "catalog": "Charlevoix",
-   "is_dnr": false,
-   "detail_url": "https://www.tax-sale.info/lot/show/id/160187",
-   "photo_url": "https://taxsaleimg.com/2026/15/014-035-031-10/Thumbs/IMG_20260531_152342947.jpg",
-   "map_url": "https://www.google.com/maps/search/?api=1&query=45.124987191,-85.128608825",
-   "sold_price": 37250.0,
-   "status": "sold"
-  },
-  {
-   "county": "Charlevoix",
-   "lot": "1613",
-   "title": "~0.91 Acre Waterfront Lot On East S...",
-   "category": "Waterfront",
-   "address": "EAST SIDE DR  BEAVER ISLAND",
-   "local_unit": "PEAINE TOWNSHIP",
-   "min_bid": 6492.46,
-   "current_taxes": 384.49,
-   "sev": 34500.0,
-   "acres": 0.91,
-   "comment": "This vacant parcel measures ~0.91 acres and offers ~100 feet of frontage on Lake Michigan! A plat map is included in the photos for reference. We were unable to conduct a follow-up visit prior to the Auction, so this information is to the best of our knowledge and should be thoroughly researched before bidding. The lot is wooded, but once cleared it could offer beautiful views of, and access to, the lake. There appear to be several homes on similarly sized lots in the area. This could be a wonderful building site, but prospective buyers should do their due diligence and contact the local munic",
-   "auction": "Antrim, Charlevoix, Emmet",
-   "auction_date": "2026-08-20",
-   "catalog": "Charlevoix",
-   "is_dnr": false,
-   "detail_url": "https://www.tax-sale.info/lot/show/id/160192",
-   "photo_url": "https://taxsaleimg.com/2026/15/012-751-010-00/Thumbs/a__012-751-010-00.png",
-   "map_url": "https://www.google.com/maps/search/?api=1&query=45.6345087734,-85.4886249808",
-   "sold_price": 79250.0,
-   "status": "sold"
-  },
-  {
-   "county": "Emmet",
-   "lot": "2300",
-   "title": "Old Church In Ayr, Complete With Be...",
-   "category": "Commercial Building",
-   "address": "3108 E BRUTUS RD  ALANSON",
-   "local_unit": "MAPLE RIVER TWP",
-   "min_bid": 2355.69,
-   "current_taxes": 360.82,
-   "sev": 16300.0,
-   "acres": null,
-   "comment": "This approximately 45 ft long * 40 ft wide old church is on the south side of Brutus Rd just east of Ayr Rd, and is in reasonably good condition; with a newer furnace and pressure tank. Looks like 200 Amp service but the outside line/post is damaged, possibly due to last year's ice storm. Overall, the exterior is rougher than the interior. The main roof is metal and the addition roofs are shingled. There is a lot of church stuff (personal items) in this one; pews, a piano, an organ, etc. The neighbor has his motor home parked 'for sale' in the lot, and there is a large, old boat parked next to",
-   "auction": "Antrim, Charlevoix, Emmet",
-   "auction_date": "2026-08-20",
-   "catalog": "Emmet",
-   "is_dnr": false,
-   "detail_url": "https://www.tax-sale.info/lot/show/id/160302",
-   "photo_url": "https://taxsaleimg.com/2026/24/09-14-30-100-002/Thumbs/IMG_20260507_190050642_HDR.jpg",
-   "map_url": "https://www.google.com/maps/search/?api=1&query=45.4927022672,-84.8501416862",
-   "sold_price": 55750.0,
-   "status": "sold"
-  },
-  {
-   "county": "Emmet",
-   "lot": "2302",
-   "title": "Remote ~0.67 Acre Wooded Vacant Par...",
-   "category": "Vacant Lot",
-   "address": "",
-   "local_unit": "PLEASANTVIEW TWP",
-   "min_bid": 1663.99,
-   "current_taxes": 145.15,
-   "sev": 17500.0,
-   "acres": 0.67,
-   "comment": "This wooded ~0.67 acre is on the SE corner of N Conway Rd and Tower Rd, both 2-tracks in this area. Nice hardwoods on the gently rolling property, surrounded by state land. A great place to get (far) away from people! Interested bidders should contact the local government and/or association regarding possible development or use restrictions like minimum sq footage requirement, road maintenance, utilities, etc.",
-   "auction": "Antrim, Charlevoix, Emmet",
-   "auction_date": "2026-08-20",
-   "catalog": "Emmet",
-   "is_dnr": false,
-   "detail_url": "https://www.tax-sale.info/lot/show/id/160304",
-   "photo_url": "https://taxsaleimg.com/2026/24/11-13-11-200-001/Thumbs/IMG_20260511_150918439_HDR.jpg",
-   "map_url": "https://www.google.com/maps/search/?api=1&query=45.5358305706,-84.8733998373",
-   "sold_price": 12500.0,
-   "status": "sold"
-  },
-  {
-   "county": "Emmet",
-   "lot": "2303",
-   "title": "Remote ~1 Acre Wooded Vacant Parcel...",
-   "category": "Vacant Lot",
-   "address": "",
-   "local_unit": "PLEASANTVIEW TWP",
-   "min_bid": 1663.99,
-   "current_taxes": 145.15,
-   "sev": 26300.0,
-   "acres": 1.0,
-   "comment": "This one is ~ 1 acre on the north side of Serva Rd, about 1/2 mile east of Welscheimer Rd. Nice hardwoods on the flat property adjoining state land. Power appears to be almost 1/2 mile away. Interested bidders should contact the local government and/or association regarding possible development or use restrictions like minimum sq footage requirement, utilities, etc.",
-   "auction": "Antrim, Charlevoix, Emmet",
-   "auction_date": "2026-08-20",
-   "catalog": "Emmet",
-   "is_dnr": false,
-   "detail_url": "https://www.tax-sale.info/lot/show/id/160305",
-   "photo_url": "https://taxsaleimg.com/2026/24/11-13-18-200-005/Thumbs/IMG_20260511_152609177_HDR.jpg",
-   "map_url": "https://www.google.com/maps/search/?api=1&query=45.515343,-84.965149",
-   "sold_price": 23250.0,
-   "status": "sold"
-  },
-  {
-   "county": "Emmet",
-   "lot": "2304",
-   "title": "50' Boat Slip At Petoskey's Bay Har...",
-   "category": null,
-   "address": "BAY HARBOR",
-   "local_unit": "CITY OF PETOSKEY",
-   "min_bid": 6605.37,
-   "current_taxes": 832.1,
-   "sev": 88700.0,
-   "acres": null,
-   "comment": "",
-   "auction": "Antrim, Charlevoix, Emmet",
-   "auction_date": "2026-08-20",
-   "catalog": "Emmet",
-   "is_dnr": false,
-   "detail_url": "https://www.tax-sale.info/lot/show/id/160306",
-   "photo_url": "https://taxsaleimg.com/2026/24/52-18-10-126-156/Thumbs/IMG_20260513_084523462_HDR.jpg",
-   "map_url": "https://www.google.com/maps/search/?api=1&query=45.3615629937,-85.031992395",
-   "sold_price": 206750.0,
-   "status": "sold"
-  },
-  {
-   "county": "Antrim",
-   "lot": "10013",
-   "title": "~40 Acre Vacant Parcel W/Access Iss...",
-   "category": "Acreage",
-   "address": "",
-   "local_unit": "MANCELONA TOWNSHIP",
-   "min_bid": 30000.0,
-   "current_taxes": null,
-   "sev": 0.0,
-   "acres": 40.0,
-   "comment": "The subject property is a ~40-acre vacant parcel which had much of the timber harvested off it around 10 years ago. The subject property is located about \u00bc of a mile east of Fairmont Court and does not have an acquired easement to access the property (i.e. landlocked). Fairmont Court is a county-maintained road according to the Antrim County Act 51 map. Fairmont Court is a diagonal dirt path that connects Mancelona Road to Crestwood Drive. There is a mineral well located on the property with an access road leading to Fairmont Court. This access trail is not a legal means to access the subject ",
-   "auction": "Antrim, Charlevoix, Emmet",
-   "auction_date": "2026-08-20",
-   "catalog": "Antrim DNR",
-   "is_dnr": true,
-   "detail_url": "https://www.tax-sale.info/lot/show/id/161604",
-   "photo_url": "https://taxsaleimg.com/2026/5/05-11-015-002-00/Thumbs/10013_a.jpg",
-   "map_url": "https://www.google.com/maps/search/?api=1&query=44.914518,-84.896119",
-   "sold_price": 67750.0,
-   "status": "sold"
-  },
-  {
-   "county": "Antrim",
-   "lot": "10014",
-   "title": "~40 Acre Vacant Parcel On Fairmount...",
-   "category": "Acreage",
-   "address": "",
-   "local_unit": "MANCELONA TOWNSHIP",
-   "min_bid": 52500.0,
-   "current_taxes": null,
-   "sev": 0.0,
-   "acres": 40.0,
-   "comment": "The subject property is a ~40-acre vacant parcel which had much of the timber harvested off it around 10 years ago. The subject property has legal access to Fairmont Court which is a county-maintained road according to the Antrim County Act 51 map. Fairmont Court is a diagonal dirt path that connects Mancelona Road to Crestwood Drive. There is a mineral well located on the property with an access road leading to Fairmont Court. The subject parcel is located just south of the Fairmont Court and Crestwood Drive intersection about 8 miles east of Mancelona MI. The area is comprised of well draine",
-   "auction": "Antrim, Charlevoix, Emmet",
-   "auction_date": "2026-08-20",
-   "catalog": "Antrim DNR",
-   "is_dnr": true,
-   "detail_url": "https://www.tax-sale.info/lot/show/id/161605",
-   "photo_url": "https://taxsaleimg.com/2026/5/05-11-015-012-00/Thumbs/10014_a.jpg",
-   "map_url": "https://www.google.com/maps/search/?api=1&query=44.914834,-84.906106",
-   "sold_price": 77500.0,
-   "status": "sold"
-  },
-  {
-   "county": "Charlevoix",
-   "lot": "1614",
-   "title": "~0.19 Acre Vacant Moist Small Lot I...",
-   "category": "Vacant Lot",
-   "address": "CRANE ST, BOYNE CITY",
-   "local_unit": "BOYNE CITY",
-   "min_bid": 100.0,
-   "current_taxes": null,
-   "sev": 3900.0,
-   "acres": 0.19,
-   "comment": "This approximately 0.19 acre wooded lot is just east of Park St on the north end of town. It's on a 2-track that apparently was intended to be 'Crane St.' but was never developed. By the looks of the GIS map, neighboring blocks (4 lots in a row) in this 'sub' were acquired by a single owner and combined to create single properties with frontage on Park St. The trees on this parcel are mostly cedar and the land is moist. Interested bidders should contact the local government and/or association regarding possible development considerations or use restrictions like minimum sq footage requirement,",
-   "auction": "Antrim, Charlevoix, Emmet",
-   "auction_date": "2026-08-20",
-   "catalog": "Charlevoix",
-   "is_dnr": false,
-   "detail_url": "https://www.tax-sale.info/lot/show/id/162181",
-   "photo_url": "https://taxsaleimg.com/2026/15/051-103-019-00/Thumbs/1614_a1.jpg",
-   "map_url": "https://www.google.com/maps/search/?api=1&query=45.22567,-85.011995",
-   "sold_price": 1300.0,
-   "status": "sold"
-  },
-  {
-   "county": "Charlevoix",
-   "lot": "10024",
-   "title": "~0.11 Acre Vacant Parcel W/Access I...",
-   "category": "Vacant Lot",
-   "address": "",
-   "local_unit": "Peaine Township",
-   "min_bid": 540.0,
-   "current_taxes": null,
-   "sev": 0.0,
-   "acres": 0.11,
-   "comment": "The subject property is small ~0.11-acre property located north of East Side Drive near Kilty Point in the southeastern part of Beaver Island. The property is fully surrounded by 1 private landowner (Schnur) and does not have legal road access to East Side Drive (i.e. landlocked). Peaine Township has zoned the property within the R-1 Single Family Residential District which requires 100000 sq. foot (2.3 acres) and 200 foot of width. The subject parcel does not meet local zoning to build as a standalone parcel. Interested buyers are encouraged to contact Peaine Township with zoning and tax ques",
-   "auction": "Antrim, Charlevoix, Emmet",
-   "auction_date": "2026-08-20",
-   "catalog": "Charlevoix DNR",
-   "is_dnr": true,
-   "detail_url": "https://www.tax-sale.info/lot/show/id/161615",
-   "photo_url": "https://taxsaleimg.com/2026/15/012-011-020-00/Thumbs/10024_a.jpg",
-   "map_url": "https://www.google.com/maps/search/?api=1&query=45.606619,-85.499906",
-   "sold_price": 650.0,
-   "status": "sold"
-  },
-  {
-   "county": "Charlevoix",
-   "lot": "10025",
-   "title": "~0.06 Acre Vacant Parcel W/Access I...",
-   "category": "Vacant Lot",
-   "address": "",
-   "local_unit": "Peaine Township",
-   "min_bid": 300.0,
-   "current_taxes": null,
-   "sev": 0.0,
-   "acres": 0.06,
-   "comment": "The subject property is small ~0.06-acre property located west of East Side Drive near Kilty Point in the southeastern part of Beaver Island. The property is fully surrounded by 2 private landowners and does not have legal road access to East Side Drive (i.e. landlocked). Peaine Township has zoned the property within the R-1 Single Family Residential District which requires 100000 sq. foot (2.3 acres) and 200 foot of width. The subject parcel does not meet local zoning to build as a standalone parcel. Interested buyers are encouraged to contact Peaine Township with zoning and tax questions. Pa",
-   "auction": "Antrim, Charlevoix, Emmet",
-   "auction_date": "2026-08-20",
-   "catalog": "Charlevoix DNR",
-   "is_dnr": true,
-   "detail_url": "https://www.tax-sale.info/lot/show/id/161616",
-   "photo_url": "https://taxsaleimg.com/2026/15/012-012-011-00/Thumbs/10025_a.jpg",
-   "map_url": "https://www.google.com/maps/search/?api=1&query=45.608343,-85.492858",
-   "sold_price": 1300.0,
-   "status": "sold"
-  },
-  {
-   "county": "Charlevoix",
-   "lot": "10026",
-   "title": "Lake Views! ~0.49 Acre Vacant Parce...",
-   "category": "Vacant Lot",
-   "address": "",
-   "local_unit": "Saint James Township",
-   "min_bid": 40000.0,
-   "current_taxes": null,
-   "sev": 0.0,
-   "acres": 0.49,
-   "comment": "",
-   "auction": "Antrim, Charlevoix, Emmet",
-   "auction_date": "2026-08-20",
-   "catalog": "Charlevoix DNR",
-   "is_dnr": true,
-   "detail_url": "https://www.tax-sale.info/lot/show/id/161617",
-   "photo_url": "https://taxsaleimg.com/2026/15/013-525-049-00/Thumbs/10026_a.jpg",
-   "map_url": "https://www.google.com/maps/search/?api=1&query=45.739035,-85.560411",
-   "sold_price": 42250.0,
-   "status": "sold"
-  },
-  {
-   "county": "Crawford",
-   "lot": "7500",
-   "title": "~0.25 Acre Vacant Parcel On Cherry Creek Rd, ...",
-   "category": "Vacant Lot",
-   "address": "CHERRY CREEK RD",
-   "local_unit": "Lovells Township",
-   "min_bid": 503.92,
-   "current_taxes": 23.9,
-   "sev": 700.0,
-   "acres": 0.25,
-   "comment": "~104 ft frontage on Cherry Crk Rd (to N). Slightly out of square in shape, generally 100' x 100'. Vacant, unimproved, wooded land. Just south of, but not in, Warbler's Hideaway Association. One corner appears to be staked (NE). Interested bidders should contact the local branch of government regarding possible development, camping, or other use restrictions. E.g. Minimum Sq. footage requirement, utilities, etc.",
-   "auction": "North Central Lower Peninsula",
-   "auction_date": "2026-08-19",
-   "catalog": "Crawford",
-   "is_dnr": false,
-   "detail_url": "https://www.tax-sale.info/lot/show/id/161784",
-   "photo_url": null,
-   "map_url": "https://www.google.com/maps/search/?api=1&query=44.7103582599,-84.4055935537",
-   "sold_price": 2300.0,
-   "status": "sold"
-  },
-  {
-   "county": "Crawford",
-   "lot": "7501",
-   "title": "~7.71 Acre Vacant Parcel W/Access I...",
-   "category": "Acreage",
-   "address": "GORSKI TRL GRAYLING MI",
-   "local_unit": "Lovells Township",
-   "min_bid": 1367.64,
-   "current_taxes": 214.77,
-   "sev": 12300.0,
-   "acres": 7.71,
-   "comment": "Generally 500' x 600'. Maps indicates portions could be wet/mucky. Direct access is from N Conners Marsh Rd south from F-32. The path is two track; some parts are washed out, others are wet and muddy. Be prepared. This is out in the literal sticks. Wooded land with an ancient enclosed camper trailer that is considered personal property and is not included in the sale. Underground electric runs down the pathways. There may be other ways to access this parcel, but we only tried the one mentioned above. Interested bidders should contact the local branch of government regarding possible developmen",
-   "auction": "North Central Lower Peninsula",
-   "auction_date": "2026-08-19",
-   "catalog": "Crawford",
-   "is_dnr": false,
-   "detail_url": "https://www.tax-sale.info/lot/show/id/161785",
-   "photo_url": "https://taxsaleimg.com/2026/20/010-11-027-10-030-00/Thumbs/P1011140.JPG",
-   "map_url": "https://www.google.com/maps/search/?api=1&query=44.6984008841,-84.4309912729",
-   "sold_price": 16250.0,
-   "status": "sold"
   }
  ],
  "analytics": {
@@ -9263,24 +8772,24 @@
    },
    {
     "county": "Crawford",
-    "sold": 26,
-    "closed": 27,
-    "rate": 0.963,
-    "avg_sold": 24756
+    "sold": 27,
+    "closed": 28,
+    "rate": 0.964,
+    "avg_sold": 24157
    },
    {
     "county": "Ogemaw",
-    "sold": 23,
-    "closed": 24,
-    "rate": 0.958,
-    "avg_sold": 23835
+    "sold": 24,
+    "closed": 25,
+    "rate": 0.96,
+    "avg_sold": 23727
    },
    {
     "county": "Cheboygan",
-    "sold": 16,
-    "closed": 17,
-    "rate": 0.941,
-    "avg_sold": 44603
+    "sold": 17,
+    "closed": 18,
+    "rate": 0.944,
+    "avg_sold": 46112
    },
    {
     "county": "Otsego",
@@ -9311,6 +8820,13 @@
     "avg_sold": 20145
    },
    {
+    "county": "Wexford",
+    "sold": 21,
+    "closed": 23,
+    "rate": 0.913,
+    "avg_sold": 15520
+   },
+   {
     "county": "Baraga",
     "sold": 10,
     "closed": 11,
@@ -9318,11 +8834,11 @@
     "avg_sold": 37945
    },
    {
-    "county": "Wexford",
+    "county": "Chippewa",
     "sold": 19,
     "closed": 21,
     "rate": 0.905,
-    "avg_sold": 14846
+    "avg_sold": 19289
    },
    {
     "county": "Marquette",
@@ -9330,13 +8846,6 @@
     "closed": 10,
     "rate": 0.9,
     "avg_sold": 36565
-   },
-   {
-    "county": "Chippewa",
-    "sold": 18,
-    "closed": 20,
-    "rate": 0.9,
-    "avg_sold": 19922
    },
    {
     "county": "Alpena",
@@ -9354,24 +8863,24 @@
    },
    {
     "county": "Lake",
-    "sold": 60,
-    "closed": 68,
-    "rate": 0.882,
-    "avg_sold": 16205
+    "sold": 63,
+    "closed": 71,
+    "rate": 0.887,
+    "avg_sold": 16017
    },
    {
     "county": "Iosco",
-    "sold": 50,
-    "closed": 57,
-    "rate": 0.877,
-    "avg_sold": 8797
+    "sold": 52,
+    "closed": 59,
+    "rate": 0.881,
+    "avg_sold": 8831
    },
    {
     "county": "Mason",
-    "sold": 15,
-    "closed": 18,
-    "rate": 0.833,
-    "avg_sold": 25986
+    "sold": 17,
+    "closed": 20,
+    "rate": 0.85,
+    "avg_sold": 34281
    },
    {
     "county": "Alger",
@@ -9388,6 +8897,13 @@
     "avg_sold": 35758
    },
    {
+    "county": "Manistee",
+    "sold": 14,
+    "closed": 17,
+    "rate": 0.824,
+    "avg_sold": 77078
+   },
+   {
     "county": "Osceola",
     "sold": 26,
     "closed": 32,
@@ -9395,18 +8911,11 @@
     "avg_sold": 5554
    },
    {
-    "county": "Manistee",
-    "sold": 12,
-    "closed": 15,
-    "rate": 0.8,
-    "avg_sold": 83854
-   },
-   {
     "county": "Kalkaska",
-    "sold": 12,
-    "closed": 15,
-    "rate": 0.8,
-    "avg_sold": 16075
+    "sold": 13,
+    "closed": 16,
+    "rate": 0.812,
+    "avg_sold": 41242
    },
    {
     "county": "Ontonagon",
@@ -9423,18 +8932,32 @@
     "avg_sold": 50403
    },
    {
-    "county": "Roscommon",
-    "sold": 18,
-    "closed": 25,
-    "rate": 0.72,
-    "avg_sold": 16069
+    "county": "Menominee",
+    "sold": 6,
+    "closed": 8,
+    "rate": 0.75,
+    "avg_sold": 17658
    },
    {
-    "county": "Menominee",
-    "sold": 5,
-    "closed": 7,
-    "rate": 0.714,
-    "avg_sold": 19750
+    "county": "Roscommon",
+    "sold": 20,
+    "closed": 27,
+    "rate": 0.741,
+    "avg_sold": 17912
+   },
+   {
+    "county": "Iron",
+    "sold": 9,
+    "closed": 13,
+    "rate": 0.692,
+    "avg_sold": 11570
+   },
+   {
+    "county": "Leelanau",
+    "sold": 2,
+    "closed": 3,
+    "rate": 0.667,
+    "avg_sold": 120625
    },
    {
     "county": "Antrim",
@@ -9442,62 +8965,55 @@
     "closed": 131,
     "rate": 0.641,
     "avg_sold": 8409
-   },
-   {
-    "county": "Iron",
-    "sold": 7,
-    "closed": 11,
-    "rate": 0.636,
-    "avg_sold": 7656
    }
   ],
   "bid_vs_sev": {
-   "avg_ratio": 0.188,
-   "n": 109
+   "avg_ratio": 0.143,
+   "n": 91
   },
   "sold_vs_min": {
-   "avg_ratio": 6.074,
-   "n": 609
+   "avg_ratio": 6.147,
+   "n": 627
   },
   "sales_by_month": [
    {
     "month": "2026-08",
     "n": 625,
     "avg_price": 21768
+   },
+   {
+    "month": "2026-09",
+    "n": 22,
+    "avg_price": 44095
    }
   ],
   "inventory_mix": [
    {
     "category": "Vacant Lot",
-    "n": 91,
-    "avg_bid": 162
+    "n": 86,
+    "avg_bid": 100
    },
    {
     "category": "Homes/Cottages",
-    "n": 18,
-    "avg_bid": 3545
+    "n": 4,
+    "avg_bid": 100
    },
    {
     "category": "Acreage",
-    "n": 3,
-    "avg_bid": 1016
-   },
-   {
-    "category": "Commercial Building",
     "n": 1,
-    "avg_bid": null
+    "avg_bid": 100
    }
   ],
   "cheapest_waterfront": []
  },
  "last_run": {
-  "id": 23,
-  "started_at": "2026-09-25T11:37:05+00:00",
-  "finished_at": "2026-09-25T11:47:06+00:00",
-  "catalogs_scanned": 90,
-  "parcels_seen": 885,
-  "new_count": 0,
-  "changed_count": 46,
-  "errors": ""
+  "id": 48,
+  "started_at": "2026-09-25T23:19:44+00:00",
+  "finished_at": null,
+  "catalogs_scanned": null,
+  "parcels_seen": null,
+  "new_count": null,
+  "changed_count": null,
+  "errors": null
  }
 }
