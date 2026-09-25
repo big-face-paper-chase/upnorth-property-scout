@@ -41,6 +41,7 @@ def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--db", default="data/scout.db")
     ap.add_argument("--site", default="docs")
+    ap.add_argument("--quiet", action="store_true")
     args = ap.parse_args()
 
     cfg = load_config()
