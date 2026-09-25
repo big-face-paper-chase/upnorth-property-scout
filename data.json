@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-25T04:21:46+00:00",
+ "generated_at": "2026-09-25T11:47:06+00:00",
  "region": "Northern Michigan + Upper Peninsula",
  "source_note": "Michigan county tax-foreclosure auctions via tax-sale.info (Title Check, LLC). For research only \u2014 always verify with the county treasurer before bidding.",
  "stats": {
@@ -1099,7 +1099,7 @@
    "catalog": "Antrim",
    "is_dnr": false,
    "detail_url": "https://www.tax-sale.info/lot/show/id/163053",
-   "photo_url": null,
+   "photo_url": "https://taxsaleimg.com/2026/5/05-13-400-060-00/Thumbs/Lakes of the North Current 2026.jpg",
    "map_url": "https://www.google.com/maps/search/?api=1&query=44.955234,-84.860539",
    "sold_price": null,
    "status": "available"
@@ -1121,7 +1121,7 @@
    "catalog": "Antrim",
    "is_dnr": false,
    "detail_url": "https://www.tax-sale.info/lot/show/id/163054",
-   "photo_url": "https://taxsaleimg.com/2026/5/05-13-400-079-00/Thumbs/Lakes of the North Current 2026.jpg",
+   "photo_url": null,
    "map_url": "https://www.google.com/maps/search/?api=1&query=44.955066,-84.86232",
    "sold_price": null,
    "status": "available"
@@ -9491,13 +9491,13 @@
   "cheapest_waterfront": []
  },
  "last_run": {
-  "id": 6,
-  "started_at": "2026-09-25T04:19:18+00:00",
-  "finished_at": "2026-09-25T04:19:29+00:00",
-  "catalogs_scanned": 0,
-  "parcels_seen": 0,
+  "id": 23,
+  "started_at": "2026-09-25T11:37:05+00:00",
+  "finished_at": "2026-09-25T11:47:06+00:00",
+  "catalogs_scanned": 90,
+  "parcels_seen": 885,
   "new_count": 0,
-  "changed_count": 0,
+  "changed_count": 46,
   "errors": ""
  }
 }
