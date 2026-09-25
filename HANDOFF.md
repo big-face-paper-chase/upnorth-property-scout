@@ -151,7 +151,7 @@ API token so the site + Access policy can be wired up. Steps when unblocked:
    Pages is cleaner).
 2. Put Cloudflare Access in front: allowlist by email, Chase approves adds/removes.
 3. Make the GitHub repo **private** and disable public Pages.
-4. Rotate/discard the old invite code (`northwoods-25e5`) — it's burned.
+4. Rotate/discard the old invite code (shared privately with Chase — do not reuse it) — it's burned.
 5. Verify unauthenticated requests get a login wall, not data.
 
 ### #2 — Per-user settings + manual scan trigger
