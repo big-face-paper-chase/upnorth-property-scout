@@ -50,6 +50,24 @@ python3 watch.py            # one watcher pass (new catalogs + live-auction poll
 
 Then open `docs/index.html` in a browser. The DB builds itself on first run.
 
+## Make your own copy
+
+This repo is a GitHub **template** — your own scout, your own counties, your own
+site, no server needed:
+
+1. Click **Use this template** → create your own repo.
+2. Edit `config.yaml` (your counties, your alert thresholds) and set your own
+   invite code in `docs/app.js` (search `INVITE_HASH` — replace with the SHA-256
+   of your code; generate with `echo -n "your-code" | sha256sum`).
+3. Repo Settings → Pages → deploy from the `main` branch. Your site goes live.
+4. The workflows in `.github/workflows/scout.yml` start automatically: a daily
+   full scan plus the 30-minute watcher, committing fresh data back to the repo.
+   The Actions tab's **Run workflow** button triggers a scan on demand.
+
+GitHub runs the scans and hosts the site — nothing to install or keep awake.
+One caveat: GitHub pauses scheduled workflows after 60 days of repo inactivity;
+one manual run wakes them back up.
+
 ## Alert rules
 
 Tune in `config.yaml` under `alerts`:
