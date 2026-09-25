@@ -130,9 +130,21 @@ function bootError(e) {
   document.querySelector("main").innerHTML = `<p class="note">Couldn't load the latest scan data (${esc(e.message)}). Try refreshing.</p>`;
 }
 
+async function fetchData(retries = 2) {
+  for (let i = 0; i <= retries; i++) {
+    try {
+      const res = await fetch("data.json", {cache: "no-store"});
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      return await res.json();
+    } catch (e) {
+      if (i === retries) throw e;
+      await new Promise((r) => setTimeout(r, 1200));
+    }
+  }
+}
+
 async function init() {
-  const res = await fetch("data.json", {cache: "no-store"});
-  DATA = await res.json();
+  DATA = await fetchData();
 
   $("stats").innerHTML = `
     <div class="stat"><b>${DATA.stats.available.toLocaleString()}</b><span>available lots</span></div>
