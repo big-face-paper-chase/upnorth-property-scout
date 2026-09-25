@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Up North Property Scout — Michigan Tax-Foreclosure Land Tracker</title>
+<meta name="description" content="An autonomous scout tracking Michigan tax-foreclosure auctions, DNR surplus parcels, and police/surplus auctions across Northern Michigan and the Upper Peninsula.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div id="gate" class="gate">
+  <div class="gate-card">
+    <p class="kicker">Private scout</p>
+    <h2>Up North Property Scout</h2>
+    <p>This tracker is invite-only. Enter your invite code to continue.</p>
+    <input id="gate-code" type="text" placeholder="Invite code" autocomplete="off" spellcheck="false">
+    <button id="gate-go" class="btn">Enter</button>
+    <p id="gate-err" class="gate-err"></p>
+  </div>
+</div>
+<div id="app" class="app-locked">
+<header class="hero">
+  <div class="wrap">
+    <p class="kicker">Autonomous auction scout · updated daily</p>
+    <h1>Up North Property Scout</h1>
+    <p class="sub">Every tax-foreclosed lot, DNR surplus parcel, and no-reserve deal across Michigan's
+      northern Lower Peninsula and the Upper Peninsula — scraped, organized, and watchlisted in one place.</p>
+    <div class="stats" id="stats"></div>
+  </div>
+</header>
+
+<nav class="tabs wrap" role="tablist">
+  <button class="tab active" data-tab="available" role="tab">Available lots</button>
+  <button class="tab" data-tab="sold" role="tab">Recently sold</button>
+  <button class="tab" data-tab="calendar" role="tab">Auction calendar</button>
+  <button class="tab" data-tab="sources" role="tab">Other auction sources</button>
+  <button class="tab" data-tab="about" role="tab">How it works</button>
+</nav>
+
+<main class="wrap">
+  <section id="tab-available" class="panel">
+    <div class="filters">
+      <input id="q" type="search" placeholder="Search title, address, or description…" aria-label="Search">
+      <select id="f-county" aria-label="County"><option value="">All counties</option></select>
+      <select id="f-cat" aria-label="Category"><option value="">All types</option></select>
+      <select id="f-dnr" aria-label="Sale type">
+        <option value="">County + DNR sales</option>
+        <option value="county">County tax sale only</option>
+        <option value="dnr">DNR surplus only</option>
+      </select>
+      <input id="f-maxbid" type="number" min="0" placeholder="Max bid $" aria-label="Maximum bid">
+      <label class="check"><input type="checkbox" id="f-water"> Waterfront only</label>
+      <select id="f-sort" aria-label="Sort">
+        <option value="bid-asc">Bid: low → high</option>
+        <option value="bid-desc">Bid: high → low</option>
+        <option value="acres-desc">Acres: high → low</option>
+        <option value="sev-desc">SEV: high → low</option>
+      </select>
+      <button id="dl-csv" class="btn">Download CSV</button>
+    </div>
+    <p class="count" id="count"></p>
+    <div class="grid" id="grid"></div>
+  </section>
+
+  <section id="tab-sold" class="panel hidden">
+    <p class="note">What up-north parcels actually sold for in recent auctions — useful for calibrating bids.</p>
+    <div class="grid" id="sold-grid"></div>
+  </section>
+
+  <section id="tab-calendar" class="panel hidden">
+    <div id="calendar"></div>
+  </section>
+
+  <section id="tab-sources" class="panel hidden">
+    <p class="note">The scout auto-scans <strong>tax-sale.info</strong> (74 Michigan counties' tax-foreclosure
+      auctions + DNR surplus parcels). These other sources can't be cleanly scraped, so they're watchlisted here —
+      check them directly:</p>
+    <div id="watchlist" class="stack"></div>
+  </section>
+
+  <section id="tab-about" class="panel hidden">
+    <div class="prose">
+      <h2>How Michigan tax-foreclosure auctions work</h2>
+      <ol>
+        <li>When property taxes go unpaid for about <strong>three years</strong>, the county treasurer
+          (the "foreclosing governmental unit") forecloses and takes title.</li>
+        <li>The county <strong>must</strong> offer the property at public auction. Most Michigan counties run
+          theirs online at <strong>tax-sale.info</strong> (operated by Title Check, LLC).</li>
+        <li><strong>First auction:</strong> minimum bid ≈ back taxes + fees. Unsold parcels go to a
+          <strong>minimum-bid re-offer</strong>, then a <strong>no-reserve auction</strong> where bidding can
+          start near zero.</li>
+        <li>Prior liens are generally wiped by court order — but do your own title research. Always verify
+          with the county treasurer before bidding.</li>
+      </ol>
+      <h2>What this scout does</h2>
+      <p>Every day it re-scans every northern-Michigan and Upper-Peninsula county catalog, downloads the
+        official parcel spreadsheets, and tracks new listings, price changes, and sales. It flags waterfront
+        lots, cheap houses, big cheap acreage, and under-$1,000 lots automatically.</p>
+      <h2>Before you bid</h2>
+      <ul>
+        <li>Properties are sold <strong>as-is</strong>. Interiors are usually unknown; many are occupied — be respectful.</li>
+        <li>Bidding requires registration + a deposit (typically a $1,000 card pre-authorization).</li>
+        <li>Check zoning, access, and back-utility bills with the local unit. This site is a research aid, not advice.</li>
+      </ul>
+      <p class="fine">Data: tax-sale.info catalog exports. Last scan: <span id="generated"></span></p>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p>Up North Property Scout · autonomous daily scans of Michigan tax-foreclosure auctions ·
+      <a href="https://www.tax-sale.info/">tax-sale.info</a></p>
+  </div>
+</footer>
+</div><!-- /#app -->
+
+<script src="app.js"></script>
+</body>
+</html>
