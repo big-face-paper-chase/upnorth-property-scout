@@ -32,6 +32,7 @@
 <nav class="tabs wrap" role="tablist">
   <button class="tab active" data-tab="available" role="tab">Available lots</button>
   <button class="tab" data-tab="sold" role="tab">Recently sold</button>
+  <button class="tab" data-tab="intel" role="tab">Market intel</button>
   <button class="tab" data-tab="calendar" role="tab">Auction calendar</button>
   <button class="tab" data-tab="sources" role="tab">Other auction sources</button>
   <button class="tab" data-tab="about" role="tab">How it works</button>
@@ -39,6 +40,7 @@
 
 <main class="wrap">
   <section id="tab-available" class="panel">
+    <div class="templates" id="templates" aria-label="Smart searches"></div>
     <div class="filters">
       <input id="q" type="search" placeholder="Search title, address, or description…" aria-label="Search">
       <select id="f-county" aria-label="County"><option value="">All counties</option></select>
@@ -49,12 +51,14 @@
         <option value="dnr">DNR surplus only</option>
       </select>
       <input id="f-maxbid" type="number" min="0" placeholder="Max bid $" aria-label="Maximum bid">
+      <input id="f-minacres" type="number" min="0" step="0.1" placeholder="Min acres" aria-label="Minimum acres">
       <label class="check"><input type="checkbox" id="f-water"> Waterfront only</label>
       <select id="f-sort" aria-label="Sort">
         <option value="bid-asc">Bid: low → high</option>
         <option value="bid-desc">Bid: high → low</option>
         <option value="acres-desc">Acres: high → low</option>
         <option value="sev-desc">SEV: high → low</option>
+        <option value="discount-desc">Discount off SEV: biggest first</option>
       </select>
       <button id="dl-csv" class="btn">Download CSV</button>
     </div>
@@ -65,6 +69,11 @@
   <section id="tab-sold" class="panel hidden">
     <p class="note">What up-north parcels actually sold for in recent auctions — useful for calibrating bids.</p>
     <div class="grid" id="sold-grid"></div>
+  </section>
+
+  <section id="tab-intel" class="panel hidden">
+    <p class="note">Crunched from every tracked sale and listing — where the deals actually are.</p>
+    <div id="intel"></div>
   </section>
 
   <section id="tab-calendar" class="panel hidden">
@@ -93,8 +102,9 @@
           with the county treasurer before bidding.</li>
       </ol>
       <h2>What this scout does</h2>
-      <p>Every day it re-scans every northern-Michigan and Upper-Peninsula county catalog, downloads the
-        official parcel spreadsheets, and tracks new listings, price changes, and sales. It flags waterfront
+      <p>Every 30 minutes it checks for newly posted auction catalogs, watches live auction days
+        for lots selling in real time, and runs a full re-scan daily — downloading the official parcel
+        spreadsheets and tracking new listings, price changes, and sales. It flags waterfront
         lots, cheap houses, big cheap acreage, and under-$1,000 lots automatically.</p>
       <h2>Before you bid</h2>
       <ul>
