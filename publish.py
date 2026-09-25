@@ -7,6 +7,7 @@ Usage:
 """
 import argparse
 import json
+import os
 import subprocess
 import sys
 import urllib.request
@@ -20,8 +21,17 @@ HERE = Path(__file__).parent
 API = "https://api.github.com"
 HOSTS = ["api.github.com"]
 CRED = "custom.github"
-OWNER = "big-face-paper-chase"
-REPO = "upnorth-property-scout"
+
+
+def _owner_repo():
+    """OWNER/REPO from GITHUB_REPOSITORY (owner/repo), else the original repo."""
+    gr = os.environ.get("GITHUB_REPOSITORY", "")
+    if "/" in gr:
+        return gr.split("/", 1)
+    return "big-face-paper-chase", "upnorth-property-scout"
+
+
+OWNER, REPO = _owner_repo()
 GH_API = str(HERE.parent / "skills" / "github" / "bin" / "github-api")
 
 
