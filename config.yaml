@@ -1,0 +1,82 @@
+# Up North Property Scout — configuration
+project: upnorth-property-scout
+region_name: "Northern Michigan + Upper Peninsula"
+repo: "https://github.com/big-face-paper-chase/upnorth-property-scout"
+
+# 39 target counties: all 15 UP counties + 24 northern Lower Peninsula counties
+counties:
+  # Upper Peninsula
+  - Alger
+  - Baraga
+  - Chippewa
+  - Delta
+  - Dickinson
+  - Gogebic
+  - Houghton
+  - Iron
+  - Keweenaw
+  - Luce
+  - Mackinac
+  - Marquette
+  - Menominee
+  - Ontonagon
+  - Schoolcraft
+  # Northern Lower Peninsula ("Up North")
+  - Alcona
+  - Alpena
+  - Antrim
+  - Benzie
+  - Charlevoix
+  - Cheboygan
+  - Crawford
+  - Emmet
+  - Grand Traverse
+  - Iosco
+  - Kalkaska
+  - Lake
+  - Leelanau
+  - Manistee
+  - Mason
+  - Missaukee
+  - Montmorency
+  - Ogemaw
+  - Osceola
+  - Oscoda
+  - Otsego
+  - Presque Isle
+  - Roscommon
+  - Wexford
+
+sources:
+  taxsale:
+    enabled: true
+    auctions_url: "https://www.tax-sale.info/auctions"
+    listing_url: "https://www.tax-sale.info/listings/catalog/{id}"
+    csv_url: "https://www.tax-sale.info/catalog/getCsv/id/{id}"
+    request_delay_seconds: 0.6
+    timeout_seconds: 30
+
+# Alert rules — a parcel triggers an alert when ANY rule matches.
+# Tune freely; the scout re-evaluates every run.
+alerts:
+  waterfront_any: true            # any waterfront lot
+  home_under: 20000               # a house/cottage with min bid under $20k
+  structure_under: 10000          # any lot with a structure, min bid under $10k
+  acreage_min_acres: 5            # 5+ acres...
+  acreage_under: 5000             # ...with min bid under $5k
+  cheap_land_under: 1000          # any lot with min bid under $1k
+  price_drop_pct: 20              # min bid dropped 20%+ since last run
+
+# Sources that can't be cleanly scraped (login walls / JS apps).
+# The scout records them in the dashboard so people can check them;
+# they are NOT auto-scraped.
+watchlist:
+  - name: "MiBid — Michigan state surplus & confiscated auctions"
+    url: "https://www.michigan.gov/dtmb/services/surplusprogram"
+    note: "State surplus plus property confiscated by MI State Police, DNR, and TSA. Items are public to view; a free MiLogin account is required to bid."
+  - name: "PropertyRoom.com — online police auctions"
+    url: "https://www.propertyroom.com/"
+    note: "National police-auction site (seized / found / unclaimed property). Filter by Michigan agencies."
+  - name: "County sheriff sales (mortgage foreclosures)"
+    url: "https://www.tax-sale.info/"
+    note: "Sheriff sales are published per-county in local legal newspapers — no single statewide feed. Check your target county sheriff's site."
