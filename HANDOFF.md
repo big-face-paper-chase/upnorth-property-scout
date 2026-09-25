@@ -36,6 +36,7 @@ live auction days for real-time sales.
 | Dashboard (filters, templates, Market Intel, calendar, CSV) | ✅ Working, mobile + desktop |
 | Alert rules | ✅ Working, tuned in `config.yaml` |
 | Per-lot history table | ✅ Recording; **not yet surfaced in UI** |
+| Self-running copy (template + Actions) | ✅ Working — friend clicks "Use this template", sets his counties/code, Pages + workflows do the rest |
 | Invite-code gate | ⚠️ **NOT real security** — see §6 job #1 |
 | Repo visibility | ⚠️ Public (should go private when real auth lands) |
 | Per-user settings / saved searches | ❌ Needs a backend with user accounts |
@@ -164,11 +165,15 @@ is the stopgap; replace it with server-side prefs.
 `parcel_history` already records every price/status change. Next: a timeline view
 per lot (price drops, re-listings, sale). Data's there; it's a UI job in `app.js`.
 
-### #4 — Re-home the runners
-The crons currently live on Moose's VM. For a real handoff, move them to something
-the friend controls: a $5 VPS with cron, GitHub Actions (scheduled workflows),
-or the Cloudflare Worker from #2. Note the VM's flaky egress proxy (§5.1) —
-anywhere else will be *more* reliable.
+### #4 — Re-home the runners (mostly solved)
+The repo is now a GitHub **template** with self-running Actions workflows
+(`.github/workflows/scout.yml`): daily full scan + 30-min watcher + manual
+"Run workflow" trigger, committing `docs/data.json` + `data/scout.db` back to the
+repo, with GitHub Pages serving the site. The friend's path: "Use this template"
+→ set his counties + invite code → enable Pages → done, no server.
+Once his copy is live and healthy, the VM crons (`upnorth-scout-watcher`,
+`upnorth-scout-daily`) can be retired — or kept as a backup.
+Note the VM's flaky egress proxy (§5.1): anywhere else will be *more* reliable.
 
 ### #5 — More sources (nice-to-have)
 MiBid (state surplus), PropertyRoom, and county sheriff foreclosure notices are
