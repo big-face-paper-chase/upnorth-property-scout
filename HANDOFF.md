@@ -16,6 +16,7 @@ and Upper-Peninsula counties, and publishes a filterable dashboard website:
 
 - **Live site:** https://big-face-paper-chase.github.io/upnorth-property-scout/
 - **Repo:** https://github.com/big-face-paper-chase/upnorth-property-scout
+- **Current invite code:** `northwoods-25e5` (typed on the site's gate screen)
 
 Features as of today: smart search templates, Market Intel analytics tab
 (sell-through by county, sales trends, deal benchmarks), auction calendar,
@@ -151,7 +152,7 @@ API token so the site + Access policy can be wired up. Steps when unblocked:
    Pages is cleaner).
 2. Put Cloudflare Access in front: allowlist by email, Chase approves adds/removes.
 3. Make the GitHub repo **private** and disable public Pages.
-4. Rotate/discard the old invite code (shared privately with Chase — do not reuse it) — it's burned.
+4. When real auth lands, retire the invite-code gate entirely (don't reuse the old code).
 5. Verify unauthenticated requests get a login wall, not data.
 
 ### #2 — Per-user settings + manual scan trigger
