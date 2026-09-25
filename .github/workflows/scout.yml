@@ -1,0 +1,61 @@
+name: Property Scout
+
+# Runs the scout on GitHub's servers — no VM needed.
+# - Daily full scan (~7:37 AM US Eastern)
+# - Watcher every 30 min (new catalogs + live-auction-day sale polling)
+# - Manual trigger via the "Run workflow" button (workflow_dispatch)
+#
+# Commits docs/data.json + data/scout.db back to the repo when they change;
+# GitHub Pages rebuilds the site automatically.
+#
+# NOTE: GitHub pauses scheduled workflows after 60 days of repo inactivity.
+# If scans stop, click "Run workflow" once to wake it back up.
+
+on:
+  schedule:
+    - cron: "37 11 * * *"   # daily full scan
+    - cron: "*/30 * * * *"  # watcher
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "Scan mode"
+        type: choice
+        options: [watch, full]
+        default: watch
+
+permissions:
+  contents: write
+
+concurrency:
+  group: scout
+  cancel-in-progress: false
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install deps
+        run: pip install requests pyyaml
+
+      - name: Run scout
+        run: |
+          if [ "${{ github.event.schedule }}" = "37 11 * * *" ] || [ "${{ inputs.mode }}" = "full" ]; then
+            echo "FULL SCAN"
+            python3 scout.py --quiet
+          else
+            echo "WATCHER"
+            python3 watch.py --quiet
+          fi
+
+      - name: Commit + push if data changed
+        run: |
+          git config user.name "scout-bot"
+          git config user.email "scout-bot@users.noreply.github.com"
+          git add -f docs/data.json data/scout.db
+          git diff --cached --quiet || (git commit -m "scout update $(date -u +%F_%T)" && git push)
