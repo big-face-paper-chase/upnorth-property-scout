@@ -88,6 +88,10 @@ PARCEL_COLS = [
 def connect(db_path: str) -> sqlite3.Connection:
     conn = sqlite3.connect(db_path)
     conn.row_factory = sqlite3.Row
+    # wait up to 60s for a locked DB instead of failing: the daily full scan
+    # and the 30-min watcher can overlap, and the lock is only held briefly
+    # between per-catalog commits.
+    conn.execute("PRAGMA busy_timeout = 60000")
     conn.executescript(SCHEMA)
     # lightweight migrations for existing DBs
     cols = {r[1] for r in conn.execute("PRAGMA table_info(parcels)").fetchall()}
