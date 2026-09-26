@@ -102,6 +102,10 @@ def main():
         files = [HERE / "data.json"]
     else:
         files = [HERE / name for name in SITE_FILES]
+    missing = [f for f in files if not f.is_file()]
+    if missing:
+        print("missing site file(s):", ", ".join(f.name for f in missing), file=sys.stderr)
+        sys.exit(1)
     ok = True
     for f in files:
         rel = f.relative_to(HERE).as_posix()
