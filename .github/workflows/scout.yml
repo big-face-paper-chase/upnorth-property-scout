@@ -5,7 +5,7 @@ name: Property Scout
 # - Watcher every 30 min (new catalogs + live-auction-day sale polling)
 # - Manual trigger via the "Run workflow" button (workflow_dispatch)
 #
-# Commits docs/data.json + data/scout.db back to the repo when they change;
+# Commits data.json + data/scout.db back to the repo when they change;
 # GitHub Pages rebuilds the site automatically.
 #
 # NOTE: GitHub pauses scheduled workflows after 60 days of repo inactivity.
@@ -57,5 +57,5 @@ jobs:
         run: |
           git config user.name "scout-bot"
           git config user.email "scout-bot@users.noreply.github.com"
-          git add -f docs/data.json data/scout.db
+          git add -f data.json data/scout.db
           git diff --cached --quiet || (git commit -m "scout update $(date -u +%F_%T)" && git push)
