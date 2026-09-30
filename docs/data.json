@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-29T17:01:05+00:00",
+ "generated_at": "2026-09-30T17:00:45+00:00",
  "region": "Northern Michigan + Upper Peninsula",
  "source_note": "Michigan county tax-foreclosure auctions via tax-sale.info (Title Check, LLC). For research only \u2014 always verify with the county treasurer before bidding.",
  "stats": {
@@ -300,7 +300,7 @@
    "catalog": "Antrim",
    "is_dnr": false,
    "detail_url": "https://www.tax-sale.info/lot/show/id/163017",
-   "photo_url": null,
+   "photo_url": "https://taxsaleimg.com/2026/5/05-11-450-346-00/Thumbs/Lakes of the North Current 2026.jpg",
    "map_url": "https://www.google.com/maps/search/?api=1&query=44.933764,-84.858025",
    "sold_price": null,
    "status": "available"
@@ -322,7 +322,7 @@
    "catalog": "Antrim",
    "is_dnr": false,
    "detail_url": "https://www.tax-sale.info/lot/show/id/163018",
-   "photo_url": null,
+   "photo_url": "https://taxsaleimg.com/2026/5/05-11-450-471-00/Thumbs/Lakes of the North Current 2026.jpg",
    "map_url": "https://www.google.com/maps/search/?api=1&query=44.936021,-84.853901",
    "sold_price": null,
    "status": "available"
@@ -344,7 +344,7 @@
    "catalog": "Antrim",
    "is_dnr": false,
    "detail_url": "https://www.tax-sale.info/lot/show/id/163019",
-   "photo_url": "https://taxsaleimg.com/2026/5/05-11-450-478-00/Thumbs/Lakes of the North Current 2026.jpg",
+   "photo_url": null,
    "map_url": "https://www.google.com/maps/search/?api=1&query=44.93519,-84.854287",
    "sold_price": null,
    "status": "available"
@@ -366,7 +366,7 @@
    "catalog": "Antrim",
    "is_dnr": false,
    "detail_url": "https://www.tax-sale.info/lot/show/id/163020",
-   "photo_url": null,
+   "photo_url": "https://taxsaleimg.com/2026/5/05-11-450-486-00/Thumbs/Lakes of the North Current 2026.jpg",
    "map_url": "https://www.google.com/maps/search/?api=1&query=44.936035,-84.85594",
    "sold_price": null,
    "status": "available"
@@ -806,7 +806,7 @@
    "catalog": "Antrim",
    "is_dnr": false,
    "detail_url": "https://www.tax-sale.info/lot/show/id/163040",
-   "photo_url": "https://taxsaleimg.com/2026/5/05-13-275-124-00/Thumbs/Lakes of the North Current 2026.jpg",
+   "photo_url": null,
    "map_url": "https://www.google.com/maps/search/?api=1&query=44.956903,-84.865894",
    "sold_price": null,
    "status": "available"
@@ -982,7 +982,7 @@
    "catalog": "Antrim",
    "is_dnr": false,
    "detail_url": "https://www.tax-sale.info/lot/show/id/163048",
-   "photo_url": "https://taxsaleimg.com/2026/5/05-13-350-232-00/Thumbs/Lakes of the North Current 2026.jpg",
+   "photo_url": null,
    "map_url": "https://www.google.com/maps/search/?api=1&query=44.954882,-84.884544",
    "sold_price": null,
    "status": "available"
@@ -9007,9 +9007,9 @@
   "cheapest_waterfront": []
  },
  "last_run": {
-  "id": 19,
-  "started_at": "2026-09-29T16:58:55+00:00",
-  "finished_at": "2026-09-29T17:01:05+00:00",
+  "id": 25,
+  "started_at": "2026-09-30T16:58:29+00:00",
+  "finished_at": "2026-09-30T17:00:45+00:00",
   "catalogs_scanned": 90,
   "parcels_seen": 885,
   "new_count": 0,
