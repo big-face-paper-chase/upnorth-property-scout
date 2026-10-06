@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-05T19:55:35+00:00",
+ "generated_at": "2026-10-06T17:24:55+00:00",
  "region": "Northern Michigan + Upper Peninsula",
  "source_note": "Michigan county tax-foreclosure auctions via tax-sale.info (Title Check, LLC). For research only \u2014 always verify with the county treasurer before bidding.",
  "stats": {
@@ -344,7 +344,7 @@
    "catalog": "Antrim",
    "is_dnr": false,
    "detail_url": "https://www.tax-sale.info/lot/show/id/163019",
-   "photo_url": null,
+   "photo_url": "https://taxsaleimg.com/2026/5/05-11-450-478-00/Thumbs/Lakes of the North Current 2026.jpg",
    "map_url": "https://www.google.com/maps/search/?api=1&query=44.93519,-84.854287",
    "sold_price": null,
    "status": "available"
@@ -784,7 +784,7 @@
    "catalog": "Antrim",
    "is_dnr": false,
    "detail_url": "https://www.tax-sale.info/lot/show/id/163039",
-   "photo_url": "https://taxsaleimg.com/2026/5/05-13-275-065-00/Thumbs/Lakes of the North Current 2026.jpg",
+   "photo_url": null,
    "map_url": "https://www.google.com/maps/search/?api=1&query=44.955352,-84.875668",
    "sold_price": null,
    "status": "available"
@@ -982,7 +982,7 @@
    "catalog": "Antrim",
    "is_dnr": false,
    "detail_url": "https://www.tax-sale.info/lot/show/id/163048",
-   "photo_url": null,
+   "photo_url": "https://taxsaleimg.com/2026/5/05-13-350-232-00/Thumbs/Lakes of the North Current 2026.jpg",
    "map_url": "https://www.google.com/maps/search/?api=1&query=44.954882,-84.884544",
    "sold_price": null,
    "status": "available"
@@ -1070,7 +1070,7 @@
    "catalog": "Antrim",
    "is_dnr": false,
    "detail_url": "https://www.tax-sale.info/lot/show/id/163052",
-   "photo_url": "https://taxsaleimg.com/2026/5/05-13-350-383-00/Thumbs/Lakes of the North Current 2026.jpg",
+   "photo_url": null,
    "map_url": "https://www.google.com/maps/search/?api=1&query=44.952799,-84.889198",
    "sold_price": null,
    "status": "available"
@@ -1237,7 +1237,7 @@
    "address": "ROW - ADEL WAY  NORWAY",
    "local_unit": "Norway Township",
    "min_bid": 100.0,
-   "current_taxes": 217.26,
+   "current_taxes": 221.11,
    "sev": 9700.0,
    "acres": null,
    "comment": "Property is a road, most likely a private Road for subdivision. Road provides access to 7 parcels, one which currently has a house constructed on it. NOTE: Parcel may be subject to an easement providing access to the 7 parcels located upon this road. The property owners may retain access to use the road after the sale. Please do your research if considering bidding on this parcel as it may have little value to anyone.",
@@ -1259,7 +1259,7 @@
    "address": "ROW - MORGEN DRIVE  NORWAY",
    "local_unit": "Norway Township",
    "min_bid": 100.0,
-   "current_taxes": 224.62,
+   "current_taxes": 228.6,
    "sev": 11400.0,
    "acres": null,
    "comment": "Property is a road, most likely a private road for subdivision. Road provides access to 5 parcels, one which currently has a house constructed on it. NOTE: Parcel may be subject to an easement providing access to the 5 parcels located upon this road. The property owners may retain access to use the road after the sale. Please do your research if considering bidding on this parcel as it may have little value to anyone.",
@@ -1281,7 +1281,7 @@
    "address": "ROW - KRESEN COURT  NORWAY",
    "local_unit": "Norway Township",
    "min_bid": 100.0,
-   "current_taxes": 239.35,
+   "current_taxes": 243.6,
    "sev": 12200.0,
    "acres": null,
    "comment": "Property is a road, most likely a private road for subdivision. Road provides access to 8 parcels, one which currently has a house constructed on it. NOTE: Parcel may be subject to an easement providing access to the 8 parcels located upon this road. The property owners may retain access to use the road after the sale. Please do your research if considering bidding on this parcel as it may have little value to anyone.",
@@ -1303,7 +1303,7 @@
    "address": "204 CHANNING AVE  SAGOLA",
    "local_unit": "Sagola Township",
    "min_bid": 100.0,
-   "current_taxes": 120.71,
+   "current_taxes": 123.1,
    "sev": 3000.0,
    "acres": null,
    "comment": "The value here is in the well, septic and land ... for whatever they're worth in present condition. Mobile has clearly been unoccupied for some time. On a quiet sidestreet in Sagola where M-69 and M-95 meet.  The back door was wide open when we were there, but we couldn't close it ... because it's GONE. It does still have the tongue/hitch attached if you want to remove it from the property, however before you do that, you'll need to cut the two 3-inch trees that have grown thru it or yer not gonna get far. The inside of this unit ? Curiously the inside looks better than expected and it might h",
@@ -9007,13 +9007,13 @@
   "cheapest_waterfront": []
  },
  "last_run": {
-  "id": 54,
-  "started_at": "2026-10-05T19:53:27+00:00",
-  "finished_at": "2026-10-05T19:55:35+00:00",
+  "id": 59,
+  "started_at": "2026-10-06T17:22:51+00:00",
+  "finished_at": "2026-10-06T17:24:55+00:00",
   "catalogs_scanned": 90,
   "parcels_seen": 885,
   "new_count": 0,
-  "changed_count": 47,
+  "changed_count": 46,
   "errors": ""
  }
 }
