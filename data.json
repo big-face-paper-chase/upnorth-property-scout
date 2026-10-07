@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-06T11:46:59+00:00",
+ "generated_at": "2026-10-07T11:46:50+00:00",
  "region": "Northern Michigan + Upper Peninsula",
  "source_note": "Michigan county tax-foreclosure auctions via tax-sale.info (Title Check, LLC). For research only \u2014 always verify with the county treasurer before bidding.",
  "stats": {
@@ -322,7 +322,7 @@
    "catalog": "Antrim",
    "is_dnr": false,
    "detail_url": "https://www.tax-sale.info/lot/show/id/163018",
-   "photo_url": null,
+   "photo_url": "https://taxsaleimg.com/2026/5/05-11-450-471-00/Thumbs/Lakes of the North Current 2026.jpg",
    "map_url": "https://www.google.com/maps/search/?api=1&query=44.936021,-84.853901",
    "sold_price": null,
    "status": "available"
@@ -960,7 +960,7 @@
    "catalog": "Antrim",
    "is_dnr": false,
    "detail_url": "https://www.tax-sale.info/lot/show/id/163047",
-   "photo_url": "https://taxsaleimg.com/2026/5/05-13-350-211-00/Thumbs/Lakes of the North Current 2026.jpg",
+   "photo_url": null,
    "map_url": "https://www.google.com/maps/search/?api=1&query=44.955609,-84.882936",
    "sold_price": null,
    "status": "available"
@@ -1188,7 +1188,7 @@
   {
    "county": "Cheboygan",
    "lot": "1701",
-   "title": "Fixer-Upper Old House In Cheboygan ...",
+   "title": "2 Story House In Cheboygan City On ...",
    "category": "Homes/Cottages",
    "address": "461 DUNCAN AVE  CHEBOYGAN",
    "local_unit": "CITY OF CHEBOYGAN",
@@ -1196,7 +1196,7 @@
    "current_taxes": 744.13,
    "sev": 37300.0,
    "acres": 27.0,
-   "comment": "Rough, 2-story 19th/20th century vinyl sided wood-frame house on a .27 acre city lot in-town Cheboygan. The roof looks decent on the street side, but not so on the backside. Some of the wood trim is in bad shape. One or two of the windows are broken. As a bonus there is a small, rough shed in the back corner of the yard. There is a moderate amount of junk in the yard, and probably the house and shed too, so plan on a dumpster. Not too far from Lake Huron and the neighborhood is nice. This one was OCCUPIED on one of our two visits so please consider it as such. Auction Lot#1702 is adjacent.",
+   "comment": "Rough, 2-story 19th/20th century vinyl sided wood-frame house on a .27 acre city lot in-town Cheboygan. The roof looks decent on the street side, but not so on the backside. Some of the wood trim is in bad shape. There are broken windows and doors that have been boarded. As a bonus there is a small, rough shed in the back corner of the yard. There is a moderate amount of junk in the yard, and probably the house and shed too, so plan on a dumpster. Not too far from Lake Huron and the neighborhood is nice.",
    "auction": "No Reserve Auction",
    "auction_date": "2026-10-30",
    "catalog": "Cheboygan",
@@ -1237,7 +1237,7 @@
    "address": "ROW - ADEL WAY  NORWAY",
    "local_unit": "Norway Township",
    "min_bid": 100.0,
-   "current_taxes": 217.26,
+   "current_taxes": 221.11,
    "sev": 9700.0,
    "acres": null,
    "comment": "Property is a road, most likely a private Road for subdivision. Road provides access to 7 parcels, one which currently has a house constructed on it. NOTE: Parcel may be subject to an easement providing access to the 7 parcels located upon this road. The property owners may retain access to use the road after the sale. Please do your research if considering bidding on this parcel as it may have little value to anyone.",
@@ -1259,7 +1259,7 @@
    "address": "ROW - MORGEN DRIVE  NORWAY",
    "local_unit": "Norway Township",
    "min_bid": 100.0,
-   "current_taxes": 224.62,
+   "current_taxes": 228.6,
    "sev": 11400.0,
    "acres": null,
    "comment": "Property is a road, most likely a private road for subdivision. Road provides access to 5 parcels, one which currently has a house constructed on it. NOTE: Parcel may be subject to an easement providing access to the 5 parcels located upon this road. The property owners may retain access to use the road after the sale. Please do your research if considering bidding on this parcel as it may have little value to anyone.",
@@ -1281,7 +1281,7 @@
    "address": "ROW - KRESEN COURT  NORWAY",
    "local_unit": "Norway Township",
    "min_bid": 100.0,
-   "current_taxes": 239.35,
+   "current_taxes": 243.6,
    "sev": 12200.0,
    "acres": null,
    "comment": "Property is a road, most likely a private road for subdivision. Road provides access to 8 parcels, one which currently has a house constructed on it. NOTE: Parcel may be subject to an easement providing access to the 8 parcels located upon this road. The property owners may retain access to use the road after the sale. Please do your research if considering bidding on this parcel as it may have little value to anyone.",
@@ -1303,7 +1303,7 @@
    "address": "204 CHANNING AVE  SAGOLA",
    "local_unit": "Sagola Township",
    "min_bid": 100.0,
-   "current_taxes": 120.71,
+   "current_taxes": 123.1,
    "sev": 3000.0,
    "acres": null,
    "comment": "The value here is in the well, septic and land ... for whatever they're worth in present condition. Mobile has clearly been unoccupied for some time. On a quiet sidestreet in Sagola where M-69 and M-95 meet.  The back door was wide open when we were there, but we couldn't close it ... because it's GONE. It does still have the tongue/hitch attached if you want to remove it from the property, however before you do that, you'll need to cut the two 3-inch trees that have grown thru it or yer not gonna get far. The inside of this unit ? Curiously the inside looks better than expected and it might h",
@@ -2549,6 +2549,28 @@
    "photo_url": "https://taxsaleimg.com/2026/72/008-882-060-0000/Thumbs/P1011632.JPG",
    "map_url": null,
    "sold_price": 21250.0,
+   "status": "sold"
+  },
+  {
+   "county": "Wexford",
+   "lot": "7003",
+   "title": "Older Single-Wide Mobile Home - Cad...",
+   "category": "Homes/Cottages",
+   "address": "918 SUNDBERG ST  CADILLAC",
+   "local_unit": "CITY OF CADILLAC",
+   "min_bid": 1904.58,
+   "current_taxes": 286.19,
+   "sev": 13500.0,
+   "acres": null,
+   "comment": "Older single-wide mobile home on a platted lot in Cadillac.  This one is well used and will likely need a good deal of work to make merchantable. The exterior of the property has been recently cleaned up by the city. There are several vehicles parked to the north of this that we believe belong to the neighbors. Still has the tongue if you want to haul it off, however you probably can't put another one there under current zoning. Check zoning for your intended use.",
+   "auction": "Minimum Bid Re-Offer Auction",
+   "auction_date": "2026-09-25",
+   "catalog": "Wexford Re-Offer",
+   "is_dnr": false,
+   "detail_url": "https://www.tax-sale.info/lot/show/id/163121",
+   "photo_url": "https://taxsaleimg.com/2026/83/10-091-00-019-00/Thumbs/IMG_8823.jpeg",
+   "map_url": "https://www.google.com/maps/search/?api=1&query=44.260415,-85.397403",
+   "sold_price": 3500.0,
    "status": "sold"
   },
   {
@@ -8688,28 +8710,6 @@
    "map_url": "https://www.google.com/maps/search/?api=1&query=44.945946,-84.906699",
    "sold_price": 900.0,
    "status": "sold"
-  },
-  {
-   "county": "Antrim",
-   "lot": "528",
-   "title": "Solid 3 Bedroom Home With 2 Garages...",
-   "category": "Homes/Cottages",
-   "address": "401 E DIVISION  MANCELONA",
-   "local_unit": "VILLAGE OF MANCELONA",
-   "min_bid": 5570.91,
-   "current_taxes": 1200.25,
-   "sev": 58400.0,
-   "acres": 0.21,
-   "comment": "This is a cute, small and basic 3 bedroom home on an approximately ~0.21 Acre (about 75 ft wide * 120 ft deep) level, grassy. corner lot on the NE side of Mancelona. It has an attached one-car garage plus a detached one-car garage and a shed to boot! There is a decent amount of personal items in all the structures, most of it junk. Overall, this home looks to be pretty well maintained and recently vacated. With some paint, carpet, and elbow grease you could move right in. All kitchen appliances are intact, sans the range/oven. Extra features are a newer air conditioner, a 90+ furnace, and a ga",
-   "auction": "Antrim, Charlevoix, Emmet",
-   "auction_date": "2026-08-20",
-   "catalog": "Antrim",
-   "is_dnr": false,
-   "detail_url": "https://www.tax-sale.info/lot/show/id/159857",
-   "photo_url": "https://taxsaleimg.com/2026/5/05-45-200-020-00/Thumbs/IMG_20260509_160946930_HDR.jpg",
-   "map_url": "https://www.google.com/maps/search/?api=1&query=44.905892,-85.052982",
-   "sold_price": 121250.0,
-   "status": "sold"
   }
  ],
  "analytics": {
@@ -8820,6 +8820,13 @@
     "avg_sold": 20145
    },
    {
+    "county": "Wexford",
+    "sold": 21,
+    "closed": 23,
+    "rate": 0.913,
+    "avg_sold": 15516
+   },
+   {
     "county": "Baraga",
     "sold": 10,
     "closed": 11,
@@ -8867,13 +8874,6 @@
     "closed": 59,
     "rate": 0.881,
     "avg_sold": 8831
-   },
-   {
-    "county": "Wexford",
-    "sold": 20,
-    "closed": 23,
-    "rate": 0.87,
-    "avg_sold": 16116
    },
    {
     "county": "Mason",
@@ -8972,8 +8972,8 @@
    "n": 91
   },
   "sold_vs_min": {
-   "avg_ratio": 6.153,
-   "n": 626
+   "avg_ratio": 6.147,
+   "n": 627
   },
   "sales_by_month": [
    {
@@ -8983,8 +8983,8 @@
    },
    {
     "month": "2026-09",
-    "n": 21,
-    "avg_price": 46023
+    "n": 22,
+    "avg_price": 44090
    }
   ],
   "inventory_mix": [
@@ -9007,13 +9007,13 @@
   "cheapest_waterfront": []
  },
  "last_run": {
-  "id": 567,
-  "started_at": "2026-10-06T11:37:05+00:00",
-  "finished_at": "2026-10-06T11:46:59+00:00",
+  "id": 616,
+  "started_at": "2026-10-07T11:37:10+00:00",
+  "finished_at": "2026-10-07T11:46:50+00:00",
   "catalogs_scanned": 90,
   "parcels_seen": 885,
   "new_count": 0,
-  "changed_count": 47,
+  "changed_count": 48,
   "errors": ""
  }
 }
