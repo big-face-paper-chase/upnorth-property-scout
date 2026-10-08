@@ -2,10 +2,10 @@
 
 Discovers Michigan tax-foreclosure auction catalogs for the target
 (northern MI + UP) counties, ingests parcel data, diffs against the last
-run, raises alerts, and rebuilds the public data feed (docs/data.json).
+run, raises alerts, and rebuilds the public data feed (data.json).
 
 Usage:
-    python3 scout.py [--db data/scout.db] [--site docs] [--quiet]
+    python3 scout.py [--db data/scout.db] [--site .] [--quiet]
 """
 import argparse
 import json
@@ -119,7 +119,7 @@ def ingest_catalog(conn, src, cfg, c, run_id, stats, errors, seen_parcel_ids=Non
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--db", default="data/scout.db")
-    ap.add_argument("--site", default="docs")
+    ap.add_argument("--site", default=".")
     ap.add_argument("--quiet", action="store_true")
     args = ap.parse_args()
 

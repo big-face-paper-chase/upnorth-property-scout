@@ -32,9 +32,9 @@ scout.py           full scan: discover → ingest → diff → alert → rebuild
 watch.py           30-min watcher: new-catalog detection + live-auction-day polling
 sources/taxsale.py tax-sale.info discovery + CSV/listing parsers (with retries)
 store.py           SQLite schema + upserts (parcels, catalogs, parcel_history, alerts, runs)
-report.py          builds docs/data.json incl. analytics aggregates
-docs/              dashboard site (GitHub Pages): index.html, app.js, styles.css, data.json
-publish.py         pushes docs/ to GitHub via API
+report.py          builds data.json incl. analytics aggregates
+repo root          dashboard site (GitHub Pages): index.html, app.js, styles.css, data.json
+publish.py         pushes the site files to GitHub via API
 run_daily.sh       cron wrapper: scan → rebuild feed → publish
 data/              scout.db + run logs (local only, gitignored)
 HANDOFF.md         full project handoff notes — start here if you're taking this over
@@ -44,11 +44,11 @@ HANDOFF.md         full project handoff notes — start here if you're taking th
 
 ```bash
 python3 -m pip install requests pyyaml
-python3 scout.py            # full scan (~4 min), rebuilds docs/data.json
+python3 scout.py            # full scan (~4 min), rebuilds data.json
 python3 watch.py            # one watcher pass (new catalogs + live-auction polling)
 ```
 
-Then open `docs/index.html` in a browser. The DB builds itself on first run.
+Then open `index.html` in a browser. The DB builds itself on first run.
 
 ## Make your own copy
 
@@ -57,7 +57,7 @@ site, no server needed:
 
 1. Click **Use this template** → create your own repo.
 2. Edit `config.yaml` (your counties, your alert thresholds) and set your own
-   invite code in `docs/app.js` (search `INVITE_HASH` — replace with the SHA-256
+   invite code in `app.js` (search `INVITE_HASH` — replace with the SHA-256
    of your code; generate with `echo -n "your-code" | sha256sum`).
 3. Repo Settings → Pages → deploy from the `main` branch. Your site goes live.
 4. The workflows in `.github/workflows/scout.yml` start automatically: a daily
@@ -81,12 +81,12 @@ Tune in `config.yaml` under `alerts`:
 | Any lot under | $1,000 |
 | Minimum-bid drop | 20%+ |
 
-Same parcel+rule never alerts twice. Smart-search templates live in `docs/app.js`
+Same parcel+rule never alerts twice. Smart-search templates live in `app.js`
 (`TEMPLATES`); analytics queries in `report.py` (`_analytics`).
 
 ## Note on the invite gate
 
-The invite-code check in `docs/app.js` is client-side only — it is not real
+The invite-code check in `app.js` is client-side only — it is not real
 authentication (see `HANDOFF.md` §6 job #1 for the replacement plan). Do not
 treat it as a security boundary.
 

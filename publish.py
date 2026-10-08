@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-"""Publish the scout's docs/ site to GitHub Pages via the GitHub API.
+"""Publish the scout's site files to GitHub Pages via the GitHub API.
 
 Usage:
-    python3 publish.py --all         # create repo (if needed), push all of docs/, enable Pages
-    python3 publish.py --data-only   # push only docs/data.json (daily cron)
+    python3 publish.py --all         # create repo (if needed), push the site files, enable Pages
+    python3 publish.py --data-only   # push only data.json (daily cron)
 """
 import argparse
 import json
@@ -21,6 +21,7 @@ HERE = Path(__file__).parent
 API = "https://api.github.com"
 HOSTS = ["api.github.com"]
 CRED = "custom.github"
+SITE_FILES = ("index.html", "app.js", "styles.css", "data.json")
 
 
 def _owner_repo():
@@ -97,14 +98,17 @@ def main():
     args = ap.parse_args()
 
     ensure_repo()
-    docs = HERE / "docs"
     if args.data_only:
-        files = [docs / "data.json"]
+        files = [HERE / "data.json"]
     else:
-        files = sorted(p for p in docs.rglob("*") if p.is_file())
+        files = [HERE / name for name in SITE_FILES]
+    missing = [f for f in files if not f.is_file()]
+    if missing:
+        print("missing site file(s):", ", ".join(f.name for f in missing), file=sys.stderr)
+        sys.exit(1)
     ok = True
     for f in files:
-        rel = f.relative_to(docs).as_posix()  # index.html at repo root
+        rel = f.relative_to(HERE).as_posix()
         ok &= put_file(f, rel, f"site update: {rel}")
     if args.all:
         enable_pages()
