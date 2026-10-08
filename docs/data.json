@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-07T17:58:53+00:00",
+ "generated_at": "2026-10-08T18:00:40+00:00",
  "region": "Northern Michigan + Upper Peninsula",
  "source_note": "Michigan county tax-foreclosure auctions via tax-sale.info (Title Check, LLC). For research only \u2014 always verify with the county treasurer before bidding.",
  "stats": {
@@ -1188,15 +1188,15 @@
   {
    "county": "Cheboygan",
    "lot": "1701",
-   "title": "Condemned 2 Story House 1/4 Acre; C...",
+   "title": "Fixer-Upper Old House In Cheboygan ...",
    "category": "Homes/Cottages",
    "address": "461 DUNCAN AVE  CHEBOYGAN",
    "local_unit": "CITY OF CHEBOYGAN",
    "min_bid": 100.0,
    "current_taxes": 744.13,
    "sev": 37300.0,
-   "acres": 4.0,
-   "comment": "PLEASE NOTE: This parcel has been recently condemned by the City of Cheboygan. Additional details can be found below. This tax foreclosed parcel consists of a rough, 2-story 19th/20th century vinyl sided wood-frame house on a .27 acre city lot in-town Cheboygan. The roof looks decent on the street side, but not so on the backside. Some of the wood trim is in bad shape. There are broken windows and doors that have been boarded. As a bonus there is a small, rough shed in the back corner of the yard. There is a moderate amount of junk in the yard, and probably the house and shed too, so plan on a",
+   "acres": 27.0,
+   "comment": "Rough, 2-story 19th/20th century vinyl sided wood-frame house on a .27 acre city lot in-town Cheboygan. The roof looks decent on the street side, but not so on the backside. Some of the wood trim is in bad shape. There are broken windows and doors that have been boarded. As a bonus there is a small, rough shed in the back corner of the yard. There is a moderate amount of junk in the yard, and probably the house and shed too, so plan on a dumpster. Not too far from Lake Huron and the neighborhood is nice.",
    "auction": "No Reserve Auction",
    "auction_date": "2026-10-30",
    "catalog": "Cheboygan",
@@ -9007,13 +9007,13 @@
   "cheapest_waterfront": []
  },
  "last_run": {
-  "id": 64,
-  "started_at": "2026-10-07T17:56:39+00:00",
-  "finished_at": "2026-10-07T17:58:53+00:00",
+  "id": 69,
+  "started_at": "2026-10-08T17:58:26+00:00",
+  "finished_at": "2026-10-08T18:00:40+00:00",
   "catalogs_scanned": 90,
   "parcels_seen": 885,
   "new_count": 0,
-  "changed_count": 48,
+  "changed_count": 47,
   "errors": ""
  }
 }
