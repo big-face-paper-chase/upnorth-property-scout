@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-09T11:47:00+00:00",
+ "generated_at": "2026-10-10T11:46:58+00:00",
  "region": "Northern Michigan + Upper Peninsula",
  "source_note": "Michigan county tax-foreclosure auctions via tax-sale.info (Title Check, LLC). For research only \u2014 always verify with the county treasurer before bidding.",
  "stats": {
@@ -872,7 +872,7 @@
    "catalog": "Antrim",
    "is_dnr": false,
    "detail_url": "https://www.tax-sale.info/lot/show/id/163043",
-   "photo_url": null,
+   "photo_url": "https://taxsaleimg.com/2026/5/05-13-300-287-00/Thumbs/Lakes of the North Current 2026.jpg",
    "map_url": "https://www.google.com/maps/search/?api=1&query=44.950785,-84.915919",
    "sold_price": null,
    "status": "available"
@@ -960,7 +960,7 @@
    "catalog": "Antrim",
    "is_dnr": false,
    "detail_url": "https://www.tax-sale.info/lot/show/id/163047",
-   "photo_url": "https://taxsaleimg.com/2026/5/05-13-350-211-00/Thumbs/Lakes of the North Current 2026.jpg",
+   "photo_url": null,
    "map_url": "https://www.google.com/maps/search/?api=1&query=44.955609,-84.882936",
    "sold_price": null,
    "status": "available"
@@ -1188,7 +1188,7 @@
   {
    "county": "Cheboygan",
    "lot": "1701",
-   "title": "Fixer-Upper Old House In Cheboygan ...",
+   "title": "Condemned House In Cheboygan City O...",
    "category": "Homes/Cottages",
    "address": "461 DUNCAN AVE  CHEBOYGAN",
    "local_unit": "CITY OF CHEBOYGAN",
@@ -1196,7 +1196,7 @@
    "current_taxes": 744.13,
    "sev": 37300.0,
    "acres": 27.0,
-   "comment": "Rough, 2-story 19th/20th century vinyl sided wood-frame house on a .27 acre city lot in-town Cheboygan. The roof looks decent on the street side, but not so on the backside. Some of the wood trim is in bad shape. There are broken windows and doors that have been boarded. As a bonus there is a small, rough shed in the back corner of the yard. There is a moderate amount of junk in the yard, and probably the house and shed too, so plan on a dumpster. Not too far from Lake Huron and the neighborhood is nice.",
+   "comment": "*PLEASE NOTE: the house on this parcel has recently been condemned by the City of Cheboygan. More detail can be found below* Rough, 2-story 19th/20th century vinyl sided wood-frame house on a .27 acre city lot in-town Cheboygan. The roof looks decent on the street side, but not so on the backside. Some of the wood trim is in bad shape. There are broken windows and doors that have been boarded. As a bonus there is a small, rough shed in the back corner of the yard. There is a moderate amount of junk in the yard, and probably the house and shed too, so plan on a dumpster. Not too far from Lake H",
    "auction": "No Reserve Auction",
    "auction_date": "2026-10-30",
    "catalog": "Cheboygan",
@@ -9007,13 +9007,13 @@
   "cheapest_waterfront": []
  },
  "last_run": {
-  "id": 714,
-  "started_at": "2026-10-09T11:37:06+00:00",
-  "finished_at": "2026-10-09T11:47:00+00:00",
+  "id": 763,
+  "started_at": "2026-10-10T11:37:05+00:00",
+  "finished_at": "2026-10-10T11:46:58+00:00",
   "catalogs_scanned": 90,
   "parcels_seen": 885,
   "new_count": 0,
-  "changed_count": 46,
+  "changed_count": 47,
   "errors": ""
  }
 }
