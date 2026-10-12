@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-11T16:46:38+00:00",
+ "generated_at": "2026-10-12T20:26:46+00:00",
  "region": "Northern Michigan + Upper Peninsula",
  "source_note": "Michigan county tax-foreclosure auctions via tax-sale.info (Title Check, LLC). For research only \u2014 always verify with the county treasurer before bidding.",
  "stats": {
@@ -344,7 +344,7 @@
    "catalog": "Antrim",
    "is_dnr": false,
    "detail_url": "https://www.tax-sale.info/lot/show/id/163019",
-   "photo_url": "https://taxsaleimg.com/2026/5/05-11-450-478-00/Thumbs/Lakes of the North Current 2026.jpg",
+   "photo_url": null,
    "map_url": "https://www.google.com/maps/search/?api=1&query=44.93519,-84.854287",
    "sold_price": null,
    "status": "available"
@@ -960,7 +960,7 @@
    "catalog": "Antrim",
    "is_dnr": false,
    "detail_url": "https://www.tax-sale.info/lot/show/id/163047",
-   "photo_url": null,
+   "photo_url": "https://taxsaleimg.com/2026/5/05-13-350-211-00/Thumbs/Lakes of the North Current 2026.jpg",
    "map_url": "https://www.google.com/maps/search/?api=1&query=44.955609,-84.882936",
    "sold_price": null,
    "status": "available"
@@ -1567,7 +1567,7 @@
    "address": "338 W JOHNSON ST",
    "local_unit": "CITY OF ISHPEMING",
    "min_bid": 100.0,
-   "current_taxes": 338.44,
+   "current_taxes": 348.49,
    "sev": 12900.0,
    "acres": 0.2,
    "comment": "Parcel is about 9500 square feet in size. You'll want to check with the zoning folks about minimum size requirements if you're considering building here. Nice quiet Ishpeming neighborhood.~0.20 Acres.",
@@ -9007,9 +9007,9 @@
   "cheapest_waterfront": []
  },
  "last_run": {
-  "id": 85,
-  "started_at": "2026-10-11T16:44:29+00:00",
-  "finished_at": "2026-10-11T16:46:38+00:00",
+  "id": 91,
+  "started_at": "2026-10-12T20:24:36+00:00",
+  "finished_at": "2026-10-12T20:26:46+00:00",
   "catalogs_scanned": 90,
   "parcels_seen": 885,
   "new_count": 0,
