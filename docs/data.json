@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-15T15:44:24+00:00",
+ "generated_at": "2026-10-16T15:31:30+00:00",
  "region": "Northern Michigan + Upper Peninsula",
  "source_note": "Michigan county tax-foreclosure auctions via tax-sale.info (Title Check, LLC). For research only \u2014 always verify with the county treasurer before bidding.",
  "stats": {
@@ -9007,9 +9007,9 @@
   "cheapest_waterfront": []
  },
  "last_run": {
-  "id": 107,
-  "started_at": "2026-10-15T15:42:19+00:00",
-  "finished_at": "2026-10-15T15:44:24+00:00",
+  "id": 114,
+  "started_at": "2026-10-16T15:29:14+00:00",
+  "finished_at": "2026-10-16T15:31:30+00:00",
   "catalogs_scanned": 90,
   "parcels_seen": 885,
   "new_count": 0,
