@@ -11,7 +11,7 @@ Runs every ~30 minutes. Cheap by design:
 This is as close to "triggered the moment something posts" as a third-party
 site without webhooks allows. The daily full scan remains the backstop.
 
-Usage: python3 watch.py [--db data/scout.db] [--site docs]
+Usage: python3 watch.py [--db data/scout.db] [--site .]
 """
 import argparse
 import json
@@ -40,12 +40,17 @@ def push_feed() -> bool:
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--db", default="data/scout.db")
-    ap.add_argument("--site", default="docs")
+    ap.add_argument("--site", default=".")
     ap.add_argument("--quiet", action="store_true")
     args = ap.parse_args()
 
     cfg = load_config()
-    conn = store.connect(str(HERE / args.db))
+    db_path = HERE / args.db
+    db_path.parent.mkdir(parents=True, exist_ok=True)
+    site_dir = HERE / args.site
+    site_dir.mkdir(parents=True, exist_ok=True)
+
+    conn = store.connect(str(db_path))
     run_id = store.start_run(conn)
     stats = {"catalogs_scanned": 0, "parcels_seen": 0, "new_count": 0,
              "changed_count": 0, "lots_sold_live": 0}
@@ -99,7 +104,7 @@ def main() -> int:
         # --- 3. push if anything moved -----------------------------------
         pushed = False
         if changed:
-            build_data_json(conn, cfg, HERE / args.site / "data.json")
+            build_data_json(conn, cfg, site_dir / "data.json")
             pushed = push_feed()
             events.append(f"dashboard feed rebuilt + pushed: {pushed}")
     except Exception as e:
