@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-27T16:52:08+00:00",
+ "generated_at": "2026-10-28T17:20:30+00:00",
  "region": "Northern Michigan + Upper Peninsula",
  "source_note": "Michigan county tax-foreclosure auctions via tax-sale.info (Title Check, LLC). For research only \u2014 always verify with the county treasurer before bidding.",
  "stats": {
@@ -608,7 +608,7 @@
    "catalog": "Antrim",
    "is_dnr": false,
    "detail_url": "https://www.tax-sale.info/lot/show/id/163031",
-   "photo_url": null,
+   "photo_url": "https://taxsaleimg.com/2026/5/05-13-250-093-00/Thumbs/Lakes of the North Current 2026.jpg",
    "map_url": "https://www.google.com/maps/search/?api=1&query=44.964083,-84.869449",
    "sold_price": null,
    "status": "available"
@@ -1092,7 +1092,7 @@
    "catalog": "Antrim",
    "is_dnr": false,
    "detail_url": "https://www.tax-sale.info/lot/show/id/163053",
-   "photo_url": "https://taxsaleimg.com/2026/5/05-13-400-060-00/Thumbs/Lakes of the North Current 2026.jpg",
+   "photo_url": null,
    "map_url": "https://www.google.com/maps/search/?api=1&query=44.955234,-84.860539",
    "sold_price": null,
    "status": "available"
@@ -2095,7 +2095,7 @@
    "address": "7840 HWY M-77",
    "local_unit": "Germfask Township",
    "min_bid": 100.0,
-   "current_taxes": 29.62,
+   "current_taxes": 30.2,
    "sev": 2500.0,
    "acres": null,
    "comment": "Parcel is only about 2000 square feet in size. Too small for construction. And part of that is underneath the road right-of-way. Not much here left for use.",
@@ -9007,9 +9007,9 @@
   "cheapest_waterfront": []
  },
  "last_run": {
-  "id": 190,
-  "started_at": "2026-10-27T16:49:55+00:00",
-  "finished_at": "2026-10-27T16:52:08+00:00",
+  "id": 195,
+  "started_at": "2026-10-28T17:18:13+00:00",
+  "finished_at": "2026-10-28T17:20:30+00:00",
   "catalogs_scanned": 90,
   "parcels_seen": 885,
   "new_count": 0,
