@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-30T17:09:28+00:00",
+ "generated_at": "2026-10-31T16:18:47+00:00",
  "region": "Northern Michigan + Upper Peninsula",
  "source_note": "Michigan county tax-foreclosure auctions via tax-sale.info (Title Check, LLC). For research only \u2014 always verify with the county treasurer before bidding.",
  "stats": {
@@ -360,7 +360,7 @@
    "catalog": "Antrim",
    "is_dnr": false,
    "detail_url": "https://www.tax-sale.info/lot/show/id/163020",
-   "photo_url": "https://taxsaleimg.com/2026/5/05-11-450-486-00/Thumbs/Lakes of the North Current 2026.jpg",
+   "photo_url": null,
    "map_url": "https://www.google.com/maps/search/?api=1&query=44.936035,-84.85594",
    "sold_price": null,
    "status": "available"
@@ -536,7 +536,7 @@
    "catalog": "Antrim",
    "is_dnr": false,
    "detail_url": "https://www.tax-sale.info/lot/show/id/163028",
-   "photo_url": null,
+   "photo_url": "https://taxsaleimg.com/2026/5/05-11-525-584-00/Thumbs/Lakes of the North Current 2026.jpg",
    "map_url": "https://www.google.com/maps/search/?api=1&query=44.919256,-84.906787",
    "sold_price": null,
    "status": "available"
@@ -778,7 +778,7 @@
    "catalog": "Antrim",
    "is_dnr": false,
    "detail_url": "https://www.tax-sale.info/lot/show/id/163039",
-   "photo_url": "https://taxsaleimg.com/2026/5/05-13-275-065-00/Thumbs/Lakes of the North Current 2026.jpg",
+   "photo_url": null,
    "map_url": "https://www.google.com/maps/search/?api=1&query=44.955352,-84.875668",
    "sold_price": null,
    "status": "available"
@@ -1130,7 +1130,7 @@
    "catalog": "Antrim",
    "is_dnr": false,
    "detail_url": "https://www.tax-sale.info/lot/show/id/163055",
-   "photo_url": null,
+   "photo_url": "https://taxsaleimg.com/2026/5/05-13-450-090-00/Thumbs/Lakes of the North Current 2026.jpg",
    "map_url": "https://www.google.com/maps/search/?api=1&query=44.9639,-84.867259",
    "sold_price": null,
    "status": "available"
@@ -9001,9 +9001,9 @@
   "cheapest_waterfront": []
  },
  "last_run": {
-  "id": 206,
-  "started_at": "2026-10-30T17:07:24+00:00",
-  "finished_at": "2026-10-30T17:09:28+00:00",
+  "id": 212,
+  "started_at": "2026-10-31T16:16:41+00:00",
+  "finished_at": "2026-10-31T16:18:47+00:00",
   "catalogs_scanned": 90,
   "parcels_seen": 885,
   "new_count": 0,
