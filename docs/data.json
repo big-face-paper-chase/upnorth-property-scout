@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-01T17:15:48+00:00",
+ "generated_at": "2026-11-02T20:54:03+00:00",
  "region": "Northern Michigan + Upper Peninsula",
  "source_note": "Michigan county tax-foreclosure auctions via tax-sale.info (Title Check, LLC). For research only \u2014 always verify with the county treasurer before bidding.",
  "stats": {
@@ -120,7 +120,7 @@
    "detail_url": "https://www.tax-sale.info/lot/show/id/163058",
    "photo_url": "https://taxsaleimg.com/2026/1/013-420-009-038-00/Thumbs/a__013-420-009-038-00.png",
    "map_url": "https://www.google.com/maps/search/?api=1&query=44.7825240294,-83.4179772562",
-   "sold_price": null,
+   "sold_price": 100.0,
    "status": "available"
   },
   {
@@ -142,7 +142,7 @@
    "detail_url": "https://www.tax-sale.info/lot/show/id/163059",
    "photo_url": "https://taxsaleimg.com/2026/4/018-103-000-043-00/Thumbs/P1034038.JPG",
    "map_url": "https://www.google.com/maps/search/?api=1&query=45.0458823944,-83.4568916347",
-   "sold_price": null,
+   "sold_price": 100.0,
    "status": "available"
   },
   {
@@ -164,7 +164,7 @@
    "detail_url": "https://www.tax-sale.info/lot/show/id/163011",
    "photo_url": "https://taxsaleimg.com/2026/5/05-11-450-017-00/Thumbs/Lakes of the North Current 2026.jpg",
    "map_url": "https://www.google.com/maps/search/?api=1&query=44.942614,-84.851409",
-   "sold_price": null,
+   "sold_price": 150.0,
    "status": "available"
   },
   {
@@ -186,7 +186,7 @@
    "detail_url": "https://www.tax-sale.info/lot/show/id/163012",
    "photo_url": "https://taxsaleimg.com/2026/5/05-11-450-019-00/Thumbs/Lakes of the North Current 2026.jpg",
    "map_url": "https://www.google.com/maps/search/?api=1&query=44.94211,-84.851715",
-   "sold_price": null,
+   "sold_price": 650.0,
    "status": "available"
   },
   {
@@ -208,7 +208,7 @@
    "detail_url": "https://www.tax-sale.info/lot/show/id/163013",
    "photo_url": "https://taxsaleimg.com/2026/5/05-11-450-138-00/Thumbs/Lakes of the North Current 2026.jpg",
    "map_url": "https://www.google.com/maps/search/?api=1&query=44.937245,-84.857964",
-   "sold_price": null,
+   "sold_price": 150.0,
    "status": "available"
   },
   {
@@ -230,7 +230,7 @@
    "detail_url": "https://www.tax-sale.info/lot/show/id/163014",
    "photo_url": "https://taxsaleimg.com/2026/5/05-11-450-151-00/Thumbs/Lakes of the North Current 2026.jpg",
    "map_url": "https://www.google.com/maps/search/?api=1&query=44.934582,-84.858774",
-   "sold_price": null,
+   "sold_price": 150.0,
    "status": "available"
   },
   {
@@ -252,7 +252,7 @@
    "detail_url": "https://www.tax-sale.info/lot/show/id/163015",
    "photo_url": "https://taxsaleimg.com/2026/5/05-11-450-273-00/Thumbs/Lakes of the North Current 2026.jpg",
    "map_url": "https://www.google.com/maps/search/?api=1&query=44.933989,-84.866622",
-   "sold_price": null,
+   "sold_price": 400.0,
    "status": "available"
   },
   {
@@ -274,7 +274,7 @@
    "detail_url": "https://www.tax-sale.info/lot/show/id/163016",
    "photo_url": "https://taxsaleimg.com/2026/5/05-11-450-320-00/Thumbs/Lakes of the North Current 2026.jpg",
    "map_url": "https://www.google.com/maps/search/?api=1&query=44.933112,-84.860203",
-   "sold_price": null,
+   "sold_price": 300.0,
    "status": "available"
   },
   {
@@ -296,7 +296,7 @@
    "detail_url": "https://www.tax-sale.info/lot/show/id/163017",
    "photo_url": "https://taxsaleimg.com/2026/5/05-11-450-346-00/Thumbs/Lakes of the North Current 2026.jpg",
    "map_url": "https://www.google.com/maps/search/?api=1&query=44.933764,-84.858025",
-   "sold_price": null,
+   "sold_price": 200.0,
    "status": "available"
   },
   {
@@ -318,7 +318,7 @@
    "detail_url": "https://www.tax-sale.info/lot/show/id/163018",
    "photo_url": null,
    "map_url": "https://www.google.com/maps/search/?api=1&query=44.936021,-84.853901",
-   "sold_price": null,
+   "sold_price": 100.0,
    "status": "available"
   },
   {
@@ -340,7 +340,7 @@
    "detail_url": "https://www.tax-sale.info/lot/show/id/163019",
    "photo_url": null,
    "map_url": "https://www.google.com/maps/search/?api=1&query=44.93519,-84.854287",
-   "sold_price": null,
+   "sold_price": 700.0,
    "status": "available"
   },
   {
@@ -362,7 +362,7 @@
    "detail_url": "https://www.tax-sale.info/lot/show/id/163020",
    "photo_url": null,
    "map_url": "https://www.google.com/maps/search/?api=1&query=44.936035,-84.85594",
-   "sold_price": null,
+   "sold_price": 100.0,
    "status": "available"
   },
   {
@@ -382,9 +382,9 @@
    "catalog": "Antrim",
    "is_dnr": false,
    "detail_url": "https://www.tax-sale.info/lot/show/id/163021",
-   "photo_url": "https://taxsaleimg.com/2026/5/05-11-450-615-00/Thumbs/Lakes of the North Current 2026.jpg",
+   "photo_url": null,
    "map_url": "https://www.google.com/maps/search/?api=1&query=44.94117,-84.851455",
-   "sold_price": null,
+   "sold_price": 300.0,
    "status": "available"
   },
   {
@@ -406,7 +406,7 @@
    "detail_url": "https://www.tax-sale.info/lot/show/id/163022",
    "photo_url": null,
    "map_url": "https://www.google.com/maps/search/?api=1&query=44.925256,-84.891626",
-   "sold_price": null,
+   "sold_price": 700.0,
    "status": "available"
   },
   {
@@ -428,7 +428,7 @@
    "detail_url": "https://www.tax-sale.info/lot/show/id/163023",
    "photo_url": null,
    "map_url": "https://www.google.com/maps/search/?api=1&query=44.918899,-84.896147",
-   "sold_price": null,
+   "sold_price": 700.0,
    "status": "available"
   },
   {
@@ -450,7 +450,7 @@
    "detail_url": "https://www.tax-sale.info/lot/show/id/163024",
    "photo_url": null,
    "map_url": "https://www.google.com/maps/search/?api=1&query=44.924394,-84.895711",
-   "sold_price": null,
+   "sold_price": 700.0,
    "status": "available"
   },
   {
@@ -472,7 +472,7 @@
    "detail_url": "https://www.tax-sale.info/lot/show/id/163025",
    "photo_url": null,
    "map_url": "https://www.google.com/maps/search/?api=1&query=44.924602,-84.902015",
-   "sold_price": null,
+   "sold_price": 550.0,
    "status": "available"
   },
   {
@@ -494,7 +494,7 @@
    "detail_url": "https://www.tax-sale.info/lot/show/id/163026",
    "photo_url": null,
    "map_url": "https://www.google.com/maps/search/?api=1&query=44.929121,-84.895178",
-   "sold_price": null,
+   "sold_price": 700.0,
    "status": "available"
   },
   {
@@ -516,7 +516,7 @@
    "detail_url": "https://www.tax-sale.info/lot/show/id/163027",
    "photo_url": null,
    "map_url": "https://www.google.com/maps/search/?api=1&query=44.91872,-84.906112",
-   "sold_price": null,
+   "sold_price": 700.0,
    "status": "available"
   },
   {
@@ -538,7 +538,7 @@
    "detail_url": "https://www.tax-sale.info/lot/show/id/163028",
    "photo_url": "https://taxsaleimg.com/2026/5/05-11-525-584-00/Thumbs/Lakes of the North Current 2026.jpg",
    "map_url": "https://www.google.com/maps/search/?api=1&query=44.919256,-84.906787",
-   "sold_price": null,
+   "sold_price": 500.0,
    "status": "available"
   },
   {
@@ -560,7 +560,7 @@
    "detail_url": "https://www.tax-sale.info/lot/show/id/163029",
    "photo_url": null,
    "map_url": "https://www.google.com/maps/search/?api=1&query=44.947427,-84.863524",
-   "sold_price": null,
+   "sold_price": 600.0,
    "status": "available"
   },
   {
@@ -582,7 +582,7 @@
    "detail_url": "https://www.tax-sale.info/lot/show/id/163030",
    "photo_url": null,
    "map_url": "https://www.google.com/maps/search/?api=1&query=44.946425,-84.854601",
-   "sold_price": null,
+   "sold_price": 100.0,
    "status": "available"
   },
   {
@@ -604,7 +604,7 @@
    "detail_url": "https://www.tax-sale.info/lot/show/id/163031",
    "photo_url": "https://taxsaleimg.com/2026/5/05-13-250-093-00/Thumbs/Lakes of the North Current 2026.jpg",
    "map_url": "https://www.google.com/maps/search/?api=1&query=44.964083,-84.869449",
-   "sold_price": null,
+   "sold_price": 600.0,
    "status": "available"
   },
   {
@@ -626,7 +626,7 @@
    "detail_url": "https://www.tax-sale.info/lot/show/id/163032",
    "photo_url": null,
    "map_url": "https://www.google.com/maps/search/?api=1&query=44.960537,-84.869142",
-   "sold_price": null,
+   "sold_price": 100.0,
    "status": "available"
   },
   {
@@ -648,7 +648,7 @@
    "detail_url": "https://www.tax-sale.info/lot/show/id/163033",
    "photo_url": null,
    "map_url": "https://www.google.com/maps/search/?api=1&query=44.962771,-84.872215",
-   "sold_price": null,
+   "sold_price": 100.0,
    "status": "available"
   },
   {
@@ -670,7 +670,7 @@
    "detail_url": "https://www.tax-sale.info/lot/show/id/163034",
    "photo_url": null,
    "map_url": "https://www.google.com/maps/search/?api=1&query=44.959937,-84.873791",
-   "sold_price": null,
+   "sold_price": 600.0,
    "status": "available"
   },
   {
@@ -692,7 +692,7 @@
    "detail_url": "https://www.tax-sale.info/lot/show/id/163035",
    "photo_url": null,
    "map_url": "https://www.google.com/maps/search/?api=1&query=44.959912,-84.876237",
-   "sold_price": null,
+   "sold_price": 600.0,
    "status": "available"
   },
   {
@@ -714,7 +714,7 @@
    "detail_url": "https://www.tax-sale.info/lot/show/id/163036",
    "photo_url": null,
    "map_url": "https://www.google.com/maps/search/?api=1&query=44.964207,-84.873242",
-   "sold_price": null,
+   "sold_price": 600.0,
    "status": "available"
   },
   {
@@ -736,7 +736,7 @@
    "detail_url": "https://www.tax-sale.info/lot/show/id/163037",
    "photo_url": null,
    "map_url": "https://www.google.com/maps/search/?api=1&query=44.963786,-84.875919",
-   "sold_price": null,
+   "sold_price": 800.0,
    "status": "available"
   },
   {
@@ -758,7 +758,7 @@
    "detail_url": "https://www.tax-sale.info/lot/show/id/163038",
    "photo_url": null,
    "map_url": "https://www.google.com/maps/search/?api=1&query=44.961882,-84.874776",
-   "sold_price": null,
+   "sold_price": 800.0,
    "status": "available"
   },
   {
@@ -780,7 +780,7 @@
    "detail_url": "https://www.tax-sale.info/lot/show/id/163039",
    "photo_url": null,
    "map_url": "https://www.google.com/maps/search/?api=1&query=44.955352,-84.875668",
-   "sold_price": null,
+   "sold_price": 200.0,
    "status": "available"
   },
   {
@@ -802,7 +802,7 @@
    "detail_url": "https://www.tax-sale.info/lot/show/id/163040",
    "photo_url": null,
    "map_url": "https://www.google.com/maps/search/?api=1&query=44.956903,-84.865894",
-   "sold_price": null,
+   "sold_price": 800.0,
    "status": "available"
   },
   {
@@ -824,7 +824,7 @@
    "detail_url": "https://www.tax-sale.info/lot/show/id/163041",
    "photo_url": null,
    "map_url": "https://www.google.com/maps/search/?api=1&query=44.958783,-84.864062",
-   "sold_price": null,
+   "sold_price": 550.0,
    "status": "available"
   },
   {
@@ -846,7 +846,7 @@
    "detail_url": "https://www.tax-sale.info/lot/show/id/163042",
    "photo_url": null,
    "map_url": "https://www.google.com/maps/search/?api=1&query=44.957729,-84.873498",
-   "sold_price": null,
+   "sold_price": 100.0,
    "status": "available"
   },
   {
@@ -868,7 +868,7 @@
    "detail_url": "https://www.tax-sale.info/lot/show/id/163043",
    "photo_url": null,
    "map_url": "https://www.google.com/maps/search/?api=1&query=44.950785,-84.915919",
-   "sold_price": null,
+   "sold_price": 100.0,
    "status": "available"
   },
   {
@@ -890,7 +890,7 @@
    "detail_url": "https://www.tax-sale.info/lot/show/id/163044",
    "photo_url": null,
    "map_url": "https://www.google.com/maps/search/?api=1&query=44.953916,-84.889987",
-   "sold_price": null,
+   "sold_price": 100.0,
    "status": "available"
   },
   {
@@ -912,7 +912,7 @@
    "detail_url": "https://www.tax-sale.info/lot/show/id/163045",
    "photo_url": null,
    "map_url": "https://www.google.com/maps/search/?api=1&query=44.954977,-84.894136",
-   "sold_price": null,
+   "sold_price": 300.0,
    "status": "available"
   },
   {
@@ -934,7 +934,7 @@
    "detail_url": "https://www.tax-sale.info/lot/show/id/163046",
    "photo_url": null,
    "map_url": "https://www.google.com/maps/search/?api=1&query=44.955993,-84.887353",
-   "sold_price": null,
+   "sold_price": 100.0,
    "status": "available"
   },
   {
@@ -956,7 +956,7 @@
    "detail_url": "https://www.tax-sale.info/lot/show/id/163047",
    "photo_url": null,
    "map_url": "https://www.google.com/maps/search/?api=1&query=44.955609,-84.882936",
-   "sold_price": null,
+   "sold_price": 200.0,
    "status": "available"
   },
   {
@@ -978,7 +978,7 @@
    "detail_url": "https://www.tax-sale.info/lot/show/id/163048",
    "photo_url": null,
    "map_url": "https://www.google.com/maps/search/?api=1&query=44.954882,-84.884544",
-   "sold_price": null,
+   "sold_price": 100.0,
    "status": "available"
   },
   {
@@ -1000,7 +1000,7 @@
    "detail_url": "https://www.tax-sale.info/lot/show/id/163049",
    "photo_url": null,
    "map_url": "https://www.google.com/maps/search/?api=1&query=44.954397,-84.885394",
-   "sold_price": null,
+   "sold_price": 750.0,
    "status": "available"
   },
   {
@@ -1022,7 +1022,7 @@
    "detail_url": "https://www.tax-sale.info/lot/show/id/163050",
    "photo_url": null,
    "map_url": "https://www.google.com/maps/search/?api=1&query=44.950946,-84.885698",
-   "sold_price": null,
+   "sold_price": 500.0,
    "status": "available"
   },
   {
@@ -1044,7 +1044,7 @@
    "detail_url": "https://www.tax-sale.info/lot/show/id/163051",
    "photo_url": null,
    "map_url": "https://www.google.com/maps/search/?api=1&query=44.95036,-84.887395",
-   "sold_price": null,
+   "sold_price": 600.0,
    "status": "available"
   },
   {
@@ -1066,7 +1066,7 @@
    "detail_url": "https://www.tax-sale.info/lot/show/id/163052",
    "photo_url": "https://taxsaleimg.com/2026/5/05-13-350-383-00/Thumbs/Lakes of the North Current 2026.jpg",
    "map_url": "https://www.google.com/maps/search/?api=1&query=44.952799,-84.889198",
-   "sold_price": null,
+   "sold_price": 550.0,
    "status": "available"
   },
   {
@@ -1086,9 +1086,9 @@
    "catalog": "Antrim",
    "is_dnr": false,
    "detail_url": "https://www.tax-sale.info/lot/show/id/163053",
-   "photo_url": null,
+   "photo_url": "https://taxsaleimg.com/2026/5/05-13-400-060-00/Thumbs/Lakes of the North Current 2026.jpg",
    "map_url": "https://www.google.com/maps/search/?api=1&query=44.955234,-84.860539",
-   "sold_price": null,
+   "sold_price": 550.0,
    "status": "available"
   },
   {
@@ -1110,7 +1110,7 @@
    "detail_url": "https://www.tax-sale.info/lot/show/id/163054",
    "photo_url": "https://taxsaleimg.com/2026/5/05-13-400-079-00/Thumbs/Lakes of the North Current 2026.jpg",
    "map_url": "https://www.google.com/maps/search/?api=1&query=44.955066,-84.86232",
-   "sold_price": null,
+   "sold_price": 600.0,
    "status": "available"
   },
   {
@@ -1132,7 +1132,7 @@
    "detail_url": "https://www.tax-sale.info/lot/show/id/163055",
    "photo_url": "https://taxsaleimg.com/2026/5/05-13-450-090-00/Thumbs/Lakes of the North Current 2026.jpg",
    "map_url": "https://www.google.com/maps/search/?api=1&query=44.9639,-84.867259",
-   "sold_price": null,
+   "sold_price": 700.0,
    "status": "available"
   },
   {
@@ -1154,7 +1154,7 @@
    "detail_url": "https://www.tax-sale.info/lot/show/id/163056",
    "photo_url": "https://taxsaleimg.com/2026/5/05-13-450-290-00/Thumbs/Lakes of the North Current 2026.jpg",
    "map_url": "https://www.google.com/maps/search/?api=1&query=44.971699,-84.850205",
-   "sold_price": null,
+   "sold_price": 800.0,
    "status": "available"
   },
   {
@@ -1176,7 +1176,7 @@
    "detail_url": "https://www.tax-sale.info/lot/show/id/163057",
    "photo_url": "https://taxsaleimg.com/2026/5/05-13-450-295-00/Thumbs/Lakes of the North Current 2026.jpg",
    "map_url": "https://www.google.com/maps/search/?api=1&query=44.970328,-84.850211",
-   "sold_price": null,
+   "sold_price": 450.0,
    "status": "available"
   },
   {
@@ -1198,7 +1198,7 @@
    "detail_url": "https://www.tax-sale.info/lot/show/id/163060",
    "photo_url": "https://taxsaleimg.com/2026/16/052-D13-002-007-00/Thumbs/IMG_20260604_145625843_HDR.jpg",
    "map_url": "https://www.google.com/maps/search/?api=1&query=45.6464366657,-84.459351292",
-   "sold_price": null,
+   "sold_price": 6400.0,
    "status": "available"
   },
   {
@@ -1308,7 +1308,7 @@
    "detail_url": "https://www.tax-sale.info/lot/show/id/162990",
    "photo_url": "https://taxsaleimg.com/2026/22/005-507-008-25/Thumbs/IMG_1786.JPG",
    "map_url": "https://www.google.com/maps/search/?api=1&query=46.0887272329,-88.0777624783",
-   "sold_price": null,
+   "sold_price": 1900.0,
    "status": "available"
   },
   {
@@ -1330,7 +1330,7 @@
    "detail_url": "https://www.tax-sale.info/lot/show/id/163063",
    "photo_url": "https://taxsaleimg.com/2026/35/064-L24-000-511-00/Thumbs/Lakewood Shores.jpeg",
    "map_url": "https://www.google.com/maps/search/?api=1&query=44.4897780607,-83.3441131443",
-   "sold_price": null,
+   "sold_price": 100.0,
    "status": "available"
   },
   {
@@ -1352,7 +1352,7 @@
    "detail_url": "https://www.tax-sale.info/lot/show/id/163064",
    "photo_url": "https://taxsaleimg.com/2026/35/064-L39-000-849-00/Thumbs/Lakewood Shores.jpeg",
    "map_url": "https://www.google.com/maps/search/?api=1&query=44.4912948715,-83.3243439298",
-   "sold_price": null,
+   "sold_price": 100.0,
    "status": "available"
   },
   {
@@ -1374,7 +1374,7 @@
    "detail_url": "https://www.tax-sale.info/lot/show/id/163065",
    "photo_url": "https://taxsaleimg.com/2026/35/064-L41-000-988-00/Thumbs/Lakewood Shores.jpeg",
    "map_url": "https://www.google.com/maps/search/?api=1&query=44.4863959036,-83.3250455139",
-   "sold_price": null,
+   "sold_price": 150.0,
    "status": "available"
   },
   {
@@ -1418,7 +1418,7 @@
    "detail_url": "https://www.tax-sale.info/lot/show/id/162993",
    "photo_url": "https://taxsaleimg.com/2026/36/054-403-007-00/Thumbs/IMG_1535.JPG",
    "map_url": "https://www.google.com/maps/search/?api=1&query=46.0961430305,-88.6452504576",
-   "sold_price": null,
+   "sold_price": 1100.0,
    "status": "available"
   },
   {
@@ -1440,7 +1440,7 @@
    "detail_url": "https://www.tax-sale.info/lot/show/id/162994",
    "photo_url": "https://taxsaleimg.com/2026/36/055-108-010-00/Thumbs/IMG_1652.JPG",
    "map_url": "https://www.google.com/maps/search/?api=1&query=46.0855760315,-88.6306242137",
-   "sold_price": null,
+   "sold_price": 5600.0,
    "status": "available"
   },
   {
@@ -1462,7 +1462,7 @@
    "detail_url": "https://www.tax-sale.info/lot/show/id/163189",
    "photo_url": "https://taxsaleimg.com/2026/43/11-351-027-00/Thumbs/a__11-351-027-00.png",
    "map_url": "https://www.google.com/maps/search/?api=1&query=43.901512899,-85.8318003386",
-   "sold_price": null,
+   "sold_price": 450.0,
    "status": "available"
   },
   {
@@ -1484,7 +1484,7 @@
    "detail_url": "https://www.tax-sale.info/lot/show/id/163190",
    "photo_url": "https://taxsaleimg.com/2026/43/11-475-011-00/Thumbs/a__11-475-011-00.png",
    "map_url": "https://www.google.com/maps/search/?api=1&query=43.9355462429,-85.8591460776",
-   "sold_price": null,
+   "sold_price": 450.0,
    "status": "available"
   },
   {
@@ -1528,7 +1528,7 @@
    "detail_url": "https://www.tax-sale.info/lot/show/id/163192",
    "photo_url": "https://taxsaleimg.com/2026/43/14-623-013-00/Thumbs/a__14-623-013-00.png",
    "map_url": "https://www.google.com/maps/search/?api=1&query=43.8849622741,-85.8079170616",
-   "sold_price": null,
+   "sold_price": 400.0,
    "status": "available"
   },
   {
@@ -1550,7 +1550,7 @@
    "detail_url": "https://www.tax-sale.info/lot/show/id/163162",
    "photo_url": "https://taxsaleimg.com/2026/51/04-036-275-04/Thumbs/IMG_2763.jpeg",
    "map_url": "https://www.google.com/maps/search/?api=1&query=44.4332920296,-85.8299792743",
-   "sold_price": null,
+   "sold_price": 25250.0,
    "status": "available"
   },
   {
@@ -1572,7 +1572,7 @@
    "detail_url": "https://www.tax-sale.info/lot/show/id/162995",
    "photo_url": "https://taxsaleimg.com/2026/52/52-51-556-064-00/Thumbs/IMG_0657.JPG",
    "map_url": "https://www.google.com/maps/search/?api=1&query=46.4871569673,-87.672708892",
-   "sold_price": null,
+   "sold_price": 3100.0,
    "status": "available"
   },
   {
@@ -1594,7 +1594,7 @@
    "detail_url": "https://www.tax-sale.info/lot/show/id/163166",
    "photo_url": "https://taxsaleimg.com/2026/53/012-033-031-00/Thumbs/IMG_3550.jpeg",
    "map_url": "https://www.google.com/maps/search/?api=1&query=43.9951067703,-86.1198845768",
-   "sold_price": null,
+   "sold_price": 5100.0,
    "status": "available"
   },
   {
@@ -1616,7 +1616,7 @@
    "detail_url": "https://www.tax-sale.info/lot/show/id/163167",
    "photo_url": "https://taxsaleimg.com/2026/53/051-335-005-00/Thumbs/IMG_2642.JPG",
    "map_url": "https://www.google.com/maps/search/?api=1&query=43.951256477,-86.4376681343",
-   "sold_price": null,
+   "sold_price": 6200.0,
    "status": "available"
   },
   {
@@ -1638,7 +1638,7 @@
    "detail_url": "https://www.tax-sale.info/lot/show/id/162996",
    "photo_url": "https://taxsaleimg.com/2026/55/051-030-640-00/Thumbs/IMG_1978.JPG",
    "map_url": "https://www.google.com/maps/search/?api=1&query=45.129188944,-87.6171209461",
-   "sold_price": null,
+   "sold_price": 350.0,
    "status": "available"
   },
   {
@@ -1660,7 +1660,7 @@
    "detail_url": "https://www.tax-sale.info/lot/show/id/162998",
    "photo_url": "https://taxsaleimg.com/2026/66/01-505-009-50/Thumbs/5801_Aerial.jpg",
    "map_url": "https://www.google.com/maps/search/?api=1&query=46.590843,-89.570732",
-   "sold_price": null,
+   "sold_price": 400.0,
    "status": "available"
   },
   {
@@ -1682,7 +1682,7 @@
    "detail_url": "https://www.tax-sale.info/lot/show/id/162999",
    "photo_url": "https://taxsaleimg.com/2026/66/11-227-040-10/Thumbs/5806_Aerial.jpg",
    "map_url": "https://www.google.com/maps/search/?api=1&query=46.525105,-89.168297",
-   "sold_price": null,
+   "sold_price": 100.0,
    "status": "available"
   },
   {
@@ -1726,7 +1726,7 @@
    "detail_url": "https://www.tax-sale.info/lot/show/id/162980",
    "photo_url": "https://taxsaleimg.com/2026/67/03-384-657-00/Thumbs/lake_mirimichi.png",
    "map_url": "https://www.google.com/maps/search/?api=1&query=43.8262300945,-85.2851339798",
-   "sold_price": null,
+   "sold_price": 100.0,
    "status": "available"
   },
   {
@@ -1748,7 +1748,7 @@
    "detail_url": "https://www.tax-sale.info/lot/show/id/162981",
    "photo_url": "https://taxsaleimg.com/2026/67/03-384-658-00/Thumbs/lake_mirimichi.png",
    "map_url": "https://www.google.com/maps/search/?api=1&query=43.8261652172,-85.284857546",
-   "sold_price": null,
+   "sold_price": 100.0,
    "status": "available"
   },
   {
@@ -1770,7 +1770,7 @@
    "detail_url": "https://www.tax-sale.info/lot/show/id/162982",
    "photo_url": "https://taxsaleimg.com/2026/67/03-384-685-00/Thumbs/lake_mirimichi.png",
    "map_url": "https://www.google.com/maps/search/?api=1&query=43.8246050784,-85.2866044262",
-   "sold_price": null,
+   "sold_price": 100.0,
    "status": "available"
   },
   {
@@ -1792,7 +1792,7 @@
    "detail_url": "https://www.tax-sale.info/lot/show/id/162983",
    "photo_url": "https://taxsaleimg.com/2026/67/03-384-749-0/Thumbs/lake_mirimichi.png",
    "map_url": "https://www.google.com/maps/search/?api=1&query=43.8279190553,-85.280250588",
-   "sold_price": null,
+   "sold_price": 100.0,
    "status": "available"
   },
   {
@@ -1814,7 +1814,7 @@
    "detail_url": "https://www.tax-sale.info/lot/show/id/162984",
    "photo_url": "https://taxsaleimg.com/2026/67/03-384-750-00/Thumbs/lake_mirimichi.png",
    "map_url": "https://www.google.com/maps/search/?api=1&query=43.827818446,-85.2799784231",
-   "sold_price": null,
+   "sold_price": 100.0,
    "status": "available"
   },
   {
@@ -1836,7 +1836,7 @@
    "detail_url": "https://www.tax-sale.info/lot/show/id/163000",
    "photo_url": "https://taxsaleimg.com/2026/68/006-109-001-00/Thumbs/P1022127.JPG",
    "map_url": "https://www.google.com/maps/search/?api=1&query=44.5779021761,-84.0871584454",
-   "sold_price": null,
+   "sold_price": 500.0,
    "status": "available"
   },
   {
@@ -1858,7 +1858,7 @@
    "detail_url": "https://www.tax-sale.info/lot/show/id/163001",
    "photo_url": "https://taxsaleimg.com/2026/69/011-510-000-033-00/Thumbs/Michaywe Current 2024.jpg",
    "map_url": "https://www.google.com/maps/search/?api=1&query=44.944069127,-84.6332006701",
-   "sold_price": null,
+   "sold_price": 600.0,
    "status": "available"
   },
   {
@@ -1880,7 +1880,7 @@
    "detail_url": "https://www.tax-sale.info/lot/show/id/163002",
    "photo_url": "https://taxsaleimg.com/2026/69/011-590-000-004-00/Thumbs/Michaywe Current 2024.jpg",
    "map_url": "https://www.google.com/maps/search/?api=1&query=44.9556676758,-84.6316964916",
-   "sold_price": null,
+   "sold_price": 450.0,
    "status": "available"
   },
   {
@@ -1902,7 +1902,7 @@
    "detail_url": "https://www.tax-sale.info/lot/show/id/163003",
    "photo_url": "https://taxsaleimg.com/2026/69/091-380-001-459-00/Thumbs/Michaywe Current 2024.jpg",
    "map_url": "https://www.google.com/maps/search/?api=1&query=44.943866394,-84.6518558562",
-   "sold_price": null,
+   "sold_price": 500.0,
    "status": "available"
   },
   {
@@ -1924,7 +1924,7 @@
    "detail_url": "https://www.tax-sale.info/lot/show/id/163004",
    "photo_url": "https://taxsaleimg.com/2026/72/003-012-011-0320/Thumbs/a__003-012-011-0320.png",
    "map_url": "https://www.google.com/maps/search/?api=1&query=44.306774142,-84.6275922706",
-   "sold_price": null,
+   "sold_price": 100.0,
    "status": "available"
   },
   {
@@ -1946,7 +1946,7 @@
    "detail_url": "https://www.tax-sale.info/lot/show/id/163005",
    "photo_url": "https://taxsaleimg.com/2026/72/003-315-023-0000/Thumbs/P1011630.JPG",
    "map_url": "https://www.google.com/maps/search/?api=1&query=44.300022,-84.662636",
-   "sold_price": null,
+   "sold_price": 100.0,
    "status": "available"
   },
   {
@@ -1968,7 +1968,7 @@
    "detail_url": "https://www.tax-sale.info/lot/show/id/163006",
    "photo_url": "https://taxsaleimg.com/2026/72/004-757-025-0000/Thumbs/a__004-757-025-0000.png",
    "map_url": "https://www.google.com/maps/search/?api=1&query=44.4412043798,-84.71192235",
-   "sold_price": null,
+   "sold_price": 250.0,
    "status": "available"
   },
   {
@@ -2012,7 +2012,7 @@
    "detail_url": "https://www.tax-sale.info/lot/show/id/163009",
    "photo_url": "https://taxsaleimg.com/2026/72/011-460-020-0000/Thumbs/P1011401.JPG",
    "map_url": "https://www.google.com/maps/search/?api=1&query=44.3060333018,-84.7643558305",
-   "sold_price": null,
+   "sold_price": 4100.0,
    "status": "available"
   },
   {
@@ -9001,13 +9001,13 @@
   "cheapest_waterfront": []
  },
  "last_run": {
-  "id": 218,
-  "started_at": "2026-11-01T17:13:37+00:00",
-  "finished_at": "2026-11-01T17:15:48+00:00",
+  "id": 223,
+  "started_at": "2026-11-02T20:51:51+00:00",
+  "finished_at": "2026-11-02T20:54:03+00:00",
   "catalogs_scanned": 90,
   "parcels_seen": 885,
   "new_count": 0,
-  "changed_count": 46,
+  "changed_count": 125,
   "errors": ""
  }
 }
