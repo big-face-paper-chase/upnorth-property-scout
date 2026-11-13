@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-12T19:06:43+00:00",
+ "generated_at": "2026-11-13T18:44:15+00:00",
  "region": "Northern Michigan + Upper Peninsula",
  "source_note": "Michigan county tax-foreclosure auctions via tax-sale.info (Title Check, LLC). For research only \u2014 always verify with the county treasurer before bidding.",
  "stats": {
@@ -1330,7 +1330,7 @@
    "detail_url": "https://www.tax-sale.info/lot/show/id/163063",
    "photo_url": "https://taxsaleimg.com/2026/35/064-L24-000-511-00/Thumbs/Lakewood Shores.jpeg",
    "map_url": "https://www.google.com/maps/search/?api=1&query=44.4897780607,-83.3441131443",
-   "sold_price": 100.0,
+   "sold_price": null,
    "status": "available"
   },
   {
@@ -9001,13 +9001,13 @@
   "cheapest_waterfront": []
  },
  "last_run": {
-  "id": 270,
-  "started_at": "2026-11-12T19:04:34+00:00",
-  "finished_at": "2026-11-12T19:06:43+00:00",
+  "id": 275,
+  "started_at": "2026-11-13T18:42:12+00:00",
+  "finished_at": "2026-11-13T18:44:15+00:00",
   "catalogs_scanned": 90,
   "parcels_seen": 885,
   "new_count": 0,
-  "changed_count": 46,
+  "changed_count": 47,
   "errors": ""
  }
 }
