@@ -5,7 +5,7 @@ set -euo pipefail
 cd "$(dirname "$0")"
 
 LOG="data/daily_$(date +%F).log"
-mkdir -p data docs
+mkdir -p data
 
 python3 scout.py --quiet >> "$LOG" 2>&1
 SCAN_EXIT=$?

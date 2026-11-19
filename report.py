@@ -1,4 +1,4 @@
-"""Build the public data feed (docs/data.json) consumed by the dashboard site."""
+"""Build the public data feed (data.json) consumed by the dashboard site."""
 import json
 from datetime import datetime, timezone
 from pathlib import Path
